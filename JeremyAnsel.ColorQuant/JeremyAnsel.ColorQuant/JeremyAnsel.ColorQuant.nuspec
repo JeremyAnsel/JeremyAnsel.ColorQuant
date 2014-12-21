@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<package >
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>$id$</id>
     <version>$version$</version>
@@ -9,6 +9,6 @@
     <projectUrl>https://github.com/JeremyAnsel/JeremyAnsel.ColorQuant</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>ColorQuant is a color quantizer based on Xiaolin Wu's Color Quantizer.</description>
-    <copyright>Copyright © Jérémy Ansel 2014</copyright>
+    <copyright>Copyright Â© JÃ©rÃ©my Ansel 2014</copyright>
   </metadata>
 </package>
