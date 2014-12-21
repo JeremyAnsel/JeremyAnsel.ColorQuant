@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://github.com/JeremyAnsel/JeremyAnsel.ColorQuant</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ColorQuant is a color quantizer based on Xiaolin Wu's Color Quantizer.</description>
+    <copyright>Copyright © Jérémy Ansel 2014</copyright>
+  </metadata>
+</package>
