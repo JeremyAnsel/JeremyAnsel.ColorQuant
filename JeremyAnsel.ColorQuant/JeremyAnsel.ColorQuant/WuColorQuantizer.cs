@@ -13,7 +13,7 @@ namespace JeremyAnsel.ColorQuant
     /// <remarks>
     /// <para>
     /// Based on C Implementation of $Xiaolin Wu's Color Quantizer$ (v. 2)
-    /// (see Graphics Gems volume II, pp. 126-133)
+    /// (see Graphics Gems volume II, pages 126-133)
     /// (<see href="http://www.ece.mcmaster.ca/~xwu/cq.c"/>).
     /// </para>
     /// <para>
