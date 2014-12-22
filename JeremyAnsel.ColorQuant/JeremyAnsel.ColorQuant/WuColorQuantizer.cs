@@ -285,11 +285,15 @@ namespace JeremyAnsel.ColorQuant
         {
             for (int i = 0; i < image.Length; i += 4)
             {
-                int r = image[i + 2] >> (8 - WuColorQuantizer.IndexBits);
-                int g = image[i + 1] >> (8 - WuColorQuantizer.IndexBits);
-                int b = image[i] >> (8 - WuColorQuantizer.IndexBits);
+                int r = image[i + 2];
+                int g = image[i + 1];
+                int b = image[i];
 
-                int ind = WuColorQuantizer.Ind(r + 1, g + 1, b + 1);
+                int inr = r >> (8 - WuColorQuantizer.IndexBits);
+                int ing = g >> (8 - WuColorQuantizer.IndexBits);
+                int inb = b >> (8 - WuColorQuantizer.IndexBits);
+
+                int ind = WuColorQuantizer.Ind(inr + 1, ing + 1, inb + 1);
 
                 this.vwt[ind]++;
                 this.vmr[ind] += r;
