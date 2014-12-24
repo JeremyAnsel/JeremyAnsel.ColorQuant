@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -12,6 +12,9 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>eb817bfa</NuGetPackageImportStamp>
+    <SourceLink Condition=" '$(CI)' == 'True' ">true</SourceLink>
+    <SourceLinkRepoUrl>https://raw.githubusercontent.com/JeremyAnsel/JeremyAnsel.ColorQuant/{0}/%var2%</SourceLinkRepoUrl>
+    <SourceLinkExclude>Properties\AssemblyInfo.cs</SourceLinkExclude>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -35,9 +38,6 @@
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <DocumentationFile>bin\Release\JeremyAnsel.ColorQuant.XML</DocumentationFile>
-    <SourceLink>true</SourceLink>
-    <SourceLinkRepoUrl>https://raw.githubusercontent.com/JeremyAnsel/JeremyAnsel.ColorQuant/{0}/%var2%</SourceLinkRepoUrl>
-    <SourceLinkExclude>Properties\AssemblyInfo.cs</SourceLinkExclude>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -47,12 +47,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Box.cs" />
