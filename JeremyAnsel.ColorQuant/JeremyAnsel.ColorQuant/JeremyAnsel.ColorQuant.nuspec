@@ -11,4 +11,7 @@
     <description>ColorQuant is a color quantizer based on Xiaolin Wu's Color Quantizer.</description>
     <copyright>Copyright © Jérémy Ansel 2014</copyright>
   </metadata>
+  <files>
+    <file src="bin\$configuration$\$id$.pdb" target="lib\net40\" />
+  </files>
 </package>
