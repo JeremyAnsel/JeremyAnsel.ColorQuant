@@ -11,7 +11,7 @@
     <AssemblyName>JeremyAnsel.ColorQuant</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <NuGetPackageImportStamp>b03400ec</NuGetPackageImportStamp>
+    <NuGetPackageImportStamp>eb817bfa</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -69,9 +69,9 @@
       <ErrorText>Ce projet fait référence à des packages NuGet qui sont manquants sur cet ordinateur. Activez l'option de restauration des packages NuGet pour les télécharger. Pour plus d'informations, consultez http://go.microsoft.com/fwlink/?LinkID=322105. Le fichier manquant est le suivant : {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\StyleCop.MSBuild.4.7.49.0\build\StyleCop.MSBuild.Targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\StyleCop.MSBuild.4.7.49.0\build\StyleCop.MSBuild.Targets'))" />
-    <Error Condition="!Exists('..\packages\SourceLink.Build.0.5.0-ci1411242108\build\SourceLink.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SourceLink.Build.0.5.0-ci1411242108\build\SourceLink.Build.targets'))" />
+    <Error Condition="!Exists('..\packages\SourceLink.Build.0.2.1\build\SourceLink.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SourceLink.Build.0.2.1\build\SourceLink.Build.targets'))" />
   </Target>
-  <Import Project="..\packages\SourceLink.Build.0.5.0-ci1411242108\build\SourceLink.Build.targets" Condition="Exists('..\packages\SourceLink.Build.0.5.0-ci1411242108\build\SourceLink.Build.targets')" />
+  <Import Project="..\packages\SourceLink.Build.0.2.1\build\SourceLink.Build.targets" Condition="Exists('..\packages\SourceLink.Build.0.2.1\build\SourceLink.Build.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
