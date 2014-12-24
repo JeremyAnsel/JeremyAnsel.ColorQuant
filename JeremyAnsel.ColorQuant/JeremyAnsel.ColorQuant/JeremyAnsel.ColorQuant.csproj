@@ -35,8 +35,9 @@
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <DocumentationFile>bin\Release\JeremyAnsel.ColorQuant.XML</DocumentationFile>
-    <SourceLinkRepoUrl>https://raw.githubusercontent.com/JeremyAnsel/JeremyAnsel.ColorQuant/{0}/%var2%</SourceLinkRepoUrl>
     <SourceLink>true</SourceLink>
+    <SourceLinkRepoUrl>https://raw.githubusercontent.com/JeremyAnsel/JeremyAnsel.ColorQuant/{0}/%var2%</SourceLinkRepoUrl>
+    <SourceLinkExclude>Properties\AssemblyInfo.cs</SourceLinkExclude>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
