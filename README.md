@@ -1,8 +1,9 @@
 JeremyAnsel.ColorQuant
 ======================
 
-- [![Build status](https://ci.appveyor.com/api/projects/status/u39upbktebxs5hwn?svg=true)](https://ci.appveyor.com/project/JeremyAnsel/jeremyansel-colorquant)
-- NuGet package: https://www.nuget.org/packages/JeremyAnsel.ColorQuant
+[![Build status](https://ci.appveyor.com/api/projects/status/u39upbktebxs5hwn?svg=true)](https://ci.appveyor.com/project/JeremyAnsel/jeremyansel-colorquant)
+
+[![NuGet Version](https://img.shields.io/nuget/v/JeremyAnsel.ColorQuant.svg)](https://www.nuget.org/packages/JeremyAnsel.ColorQuant)
 
 JeremyAnsel.ColorQuant is a C# implementation of the Xiaolin Wu's Color Quantizer (v. 2).
 
