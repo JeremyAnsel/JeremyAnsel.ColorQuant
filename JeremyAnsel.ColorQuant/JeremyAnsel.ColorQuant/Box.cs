@@ -40,6 +40,16 @@ namespace JeremyAnsel.ColorQuant
         public int B1 { get; set; }
 
         /// <summary>
+        /// Gets or sets the min alpha value, exclusive.
+        /// </summary>
+        public int A0 { get; set; }
+
+        /// <summary>
+        /// Gets or sets the max alpha value, inclusive.
+        /// </summary>
+        public int A1 { get; set; }
+
+        /// <summary>
         /// Gets or sets the volume.
         /// </summary>
         public int Volume { get; set; }

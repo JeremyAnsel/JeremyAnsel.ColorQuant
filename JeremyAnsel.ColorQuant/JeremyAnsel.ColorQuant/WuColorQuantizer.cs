@@ -91,7 +91,7 @@ namespace JeremyAnsel.ColorQuant
         /// </summary>
         /// <param name="image">The image (XRGB).</param>
         /// <returns>The result.</returns>
-        public QuantizedResult Quantize(byte[] image)
+        public ColorQuantizerResult Quantize(byte[] image)
         {
             return this.Quantize(image, 256);
         }
@@ -102,7 +102,7 @@ namespace JeremyAnsel.ColorQuant
         /// <param name="image">The image (XRGB).</param>
         /// <param name="colorCount">The color count.</param>
         /// <returns>The result.</returns>
-        public QuantizedResult Quantize(byte[] image, int colorCount)
+        public ColorQuantizerResult Quantize(byte[] image, int colorCount)
         {
             if (image == null)
             {
@@ -122,40 +122,7 @@ namespace JeremyAnsel.ColorQuant
             Box[] cube;
             this.BuildCube(out cube, ref colorCount);
 
-            var quantizedImage = new QuantizedResult(image.Length / 4, colorCount);
-
-            for (int k = 0; k < colorCount; k++)
-            {
-                this.Mark(cube[k], (byte)k);
-
-                double weight = WuColorQuantizer.Volume(cube[k], this.vwt);
-
-                if (weight != 0)
-                {
-                    quantizedImage.Palette[(k * 4) + 2] = (byte)(WuColorQuantizer.Volume(cube[k], this.vmr) / weight);
-                    quantizedImage.Palette[(k * 4) + 1] = (byte)(WuColorQuantizer.Volume(cube[k], this.vmg) / weight);
-                    quantizedImage.Palette[k * 4] = (byte)(WuColorQuantizer.Volume(cube[k], this.vmb) / weight);
-                }
-                else
-                {
-                    quantizedImage.Palette[(k * 4) + 2] = 0;
-                    quantizedImage.Palette[(k * 4) + 1] = 0;
-                    quantizedImage.Palette[k * 4] = 0;
-                }
-            }
-
-            for (int i = 0; i < image.Length / 4; i++)
-            {
-                int r = image[(i * 4) + 2] >> (8 - WuColorQuantizer.IndexBits);
-                int g = image[(i * 4) + 1] >> (8 - WuColorQuantizer.IndexBits);
-                int b = image[i * 4] >> (8 - WuColorQuantizer.IndexBits);
-
-                int ind = WuColorQuantizer.Ind(r + 1, g + 1, b + 1);
-
-                quantizedImage.Bytes[i] = this.tag[ind];
-            }
-
-            return quantizedImage;
+            return this.GenerateResult(image, colorCount, cube);
         }
 
         /// <summary>
@@ -167,7 +134,7 @@ namespace JeremyAnsel.ColorQuant
         /// <returns>The index.</returns>
         private static int Ind(int r, int g, int b)
         {
-            return (r << (WuColorQuantizer.IndexBits * 2)) + (r << (WuColorQuantizer.IndexBits + 1)) + r + (g << WuColorQuantizer.IndexBits) + g + b;
+            return (r << (WuColorQuantizer.IndexBits * 2)) + (r << (WuColorQuantizer.IndexBits + 1)) + (g << WuColorQuantizer.IndexBits) + r + g + b;
         }
 
         /// <summary>
@@ -596,6 +563,53 @@ namespace JeremyAnsel.ColorQuant
                     break;
                 }
             }
+        }
+
+        /// <summary>
+        /// Generates the quantized result.
+        /// </summary>
+        /// <param name="image">The image.</param>
+        /// <param name="colorCount">The color count.</param>
+        /// <param name="cube">The cube.</param>
+        /// <returns>The result.</returns>
+        private ColorQuantizerResult GenerateResult(byte[] image, int colorCount, Box[] cube)
+        {
+            var quantizedImage = new ColorQuantizerResult(image.Length / 4, colorCount);
+
+            for (int k = 0; k < colorCount; k++)
+            {
+                this.Mark(cube[k], (byte)k);
+
+                double weight = WuColorQuantizer.Volume(cube[k], this.vwt);
+
+                if (weight != 0)
+                {
+                    quantizedImage.Palette[(k * 4) + 3] = 0xff;
+                    quantizedImage.Palette[(k * 4) + 2] = (byte)(WuColorQuantizer.Volume(cube[k], this.vmr) / weight);
+                    quantizedImage.Palette[(k * 4) + 1] = (byte)(WuColorQuantizer.Volume(cube[k], this.vmg) / weight);
+                    quantizedImage.Palette[k * 4] = (byte)(WuColorQuantizer.Volume(cube[k], this.vmb) / weight);
+                }
+                else
+                {
+                    quantizedImage.Palette[(k * 4) + 3] = 0xff;
+                    quantizedImage.Palette[(k * 4) + 2] = 0;
+                    quantizedImage.Palette[(k * 4) + 1] = 0;
+                    quantizedImage.Palette[k * 4] = 0;
+                }
+            }
+
+            for (int i = 0; i < image.Length / 4; i++)
+            {
+                int r = image[(i * 4) + 2] >> (8 - WuColorQuantizer.IndexBits);
+                int g = image[(i * 4) + 1] >> (8 - WuColorQuantizer.IndexBits);
+                int b = image[i * 4] >> (8 - WuColorQuantizer.IndexBits);
+
+                int ind = WuColorQuantizer.Ind(r + 1, g + 1, b + 1);
+
+                quantizedImage.Bytes[i] = this.tag[ind];
+            }
+
+            return quantizedImage;
         }
     }
 }

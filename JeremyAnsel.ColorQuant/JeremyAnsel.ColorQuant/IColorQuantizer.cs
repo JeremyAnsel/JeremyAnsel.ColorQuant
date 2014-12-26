@@ -12,16 +12,16 @@ namespace JeremyAnsel.ColorQuant
         /// <summary>
         /// Quantizes an image.
         /// </summary>
-        /// <param name="image">The image (XRGB).</param>
+        /// <param name="image">The image (XRGB or ARGB).</param>
         /// <returns>The result.</returns>
-        QuantizedResult Quantize(byte[] image);
+        ColorQuantizerResult Quantize(byte[] image);
 
         /// <summary>
         /// Quantizes an image.
         /// </summary>
-        /// <param name="image">The image (XRGB).</param>
+        /// <param name="image">The image (XRGB or ARGB).</param>
         /// <param name="colorCount">The color count.</param>
         /// <returns>The result.</returns>
-        QuantizedResult Quantize(byte[] image, int colorCount);
+        ColorQuantizerResult Quantize(byte[] image, int colorCount);
     }
 }

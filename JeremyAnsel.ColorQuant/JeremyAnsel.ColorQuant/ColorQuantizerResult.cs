@@ -1,4 +1,4 @@
-﻿// <copyright file="QuantizedResult.cs" company="Jérémy Ansel">
+﻿// <copyright file="ColorQuantizerResult.cs" company="Jérémy Ansel">
 // Copyright (c) Jérémy Ansel 2014
 // </copyright>
 
@@ -8,16 +8,16 @@ namespace JeremyAnsel.ColorQuant
     using System.Diagnostics.CodeAnalysis;
 
     /// <summary>
-    /// A quantized result.
+    /// A result of color quantization.
     /// </summary>
-    public sealed class QuantizedResult
+    public sealed class ColorQuantizerResult
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="QuantizedResult"/> class.
+        /// Initializes a new instance of the <see cref="ColorQuantizerResult"/> class.
         /// </summary>
         /// <param name="size">The size of the result.</param>
         /// <param name="colorCount">The color count.</param>
-        public QuantizedResult(int size, int colorCount)
+        public ColorQuantizerResult(int size, int colorCount)
         {
             if (size < 1)
             {
@@ -34,7 +34,7 @@ namespace JeremyAnsel.ColorQuant
         }
 
         /// <summary>
-        /// Gets the palette (XRGB).
+        /// Gets the palette (XRGB or ARGB).
         /// </summary>
         [SuppressMessage("Microsoft.Performance", "CA1819:PropertiesShouldNotReturnArrays", Justification = "Reviewed")]
         public byte[] Palette { get; private set; }
