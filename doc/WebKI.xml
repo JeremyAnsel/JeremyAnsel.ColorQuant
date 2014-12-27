@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Bytes property" Url="html/P_JeremyAnsel_ColorQuant_ColorQuantizerResult_Bytes.htm" />
+  <HelpKINode Title="ColorQuantizerResult class">
+    <HelpKINode Title="ColorQuantizerResult Class" Url="html/T_JeremyAnsel_ColorQuant_ColorQuantizerResult.htm" />
+    <HelpKINode Title="about ColorQuantizerResult class" Url="html/T_JeremyAnsel_ColorQuant_ColorQuantizerResult.htm" />
+    <HelpKINode Title="constructor" Url="html/M_JeremyAnsel_ColorQuant_ColorQuantizerResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_JeremyAnsel_ColorQuant_ColorQuantizerResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_JeremyAnsel_ColorQuant_ColorQuantizerResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ColorQuantizerResult.Bytes property" Url="html/P_JeremyAnsel_ColorQuant_ColorQuantizerResult_Bytes.htm" />
+  <HelpKINode Title="ColorQuantizerResult.ColorQuantizerResult constructor" Url="html/M_JeremyAnsel_ColorQuant_ColorQuantizerResult__ctor.htm" />
+  <HelpKINode Title="ColorQuantizerResult.Palette property" Url="html/P_JeremyAnsel_ColorQuant_ColorQuantizerResult_Palette.htm" />
+  <HelpKINode Title="IColorQuantizer interface">
+    <HelpKINode Title="IColorQuantizer Interface" Url="html/T_JeremyAnsel_ColorQuant_IColorQuantizer.htm" />
+    <HelpKINode Title="about IColorQuantizer interface" Url="html/T_JeremyAnsel_ColorQuant_IColorQuantizer.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_JeremyAnsel_ColorQuant_IColorQuantizer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IColorQuantizer.Quantize method" Url="html/Overload_JeremyAnsel_ColorQuant_IColorQuantizer_Quantize.htm" />
+  <HelpKINode Title="JeremyAnsel.ColorQuant namespace" Url="html/N_JeremyAnsel_ColorQuant.htm" />
+  <HelpKINode Title="JeremyAnsel.ColorQuant.ColorQuantizerResult class" Url="html/T_JeremyAnsel_ColorQuant_ColorQuantizerResult.htm" />
+  <HelpKINode Title="JeremyAnsel.ColorQuant.IColorQuantizer interface" Url="html/T_JeremyAnsel_ColorQuant_IColorQuantizer.htm" />
+  <HelpKINode Title="JeremyAnsel.ColorQuant.WuAlphaColorQuantizer class" Url="html/T_JeremyAnsel_ColorQuant_WuAlphaColorQuantizer.htm" />
+  <HelpKINode Title="JeremyAnsel.ColorQuant.WuColorQuantizer class" Url="html/T_JeremyAnsel_ColorQuant_WuColorQuantizer.htm" />
+  <HelpKINode Title="Palette property" Url="html/P_JeremyAnsel_ColorQuant_ColorQuantizerResult_Palette.htm" />
+  <HelpKINode Title="Quantize method">
+    <HelpKINode Title="IColorQuantizer.Quantize Method " Url="html/Overload_JeremyAnsel_ColorQuant_IColorQuantizer_Quantize.htm" />
+    <HelpKINode Title="WuAlphaColorQuantizer.Quantize Method " Url="html/Overload_JeremyAnsel_ColorQuant_WuAlphaColorQuantizer_Quantize.htm" />
+    <HelpKINode Title="WuColorQuantizer.Quantize Method " Url="html/Overload_JeremyAnsel_ColorQuant_WuColorQuantizer_Quantize.htm" />
+  </HelpKINode>
+  <HelpKINode Title="version">
+    <HelpKINode Title="1.0" Url="html/VersionHistory-v1_0.htm" />
+    <HelpKINode Title="history" Url="html/VersionHistory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Welcome" Url="html/Welcome.htm" />
+  <HelpKINode Title="WuAlphaColorQuantizer class">
+    <HelpKINode Title="WuAlphaColorQuantizer Class" Url="html/T_JeremyAnsel_ColorQuant_WuAlphaColorQuantizer.htm" />
+    <HelpKINode Title="about WuAlphaColorQuantizer class" Url="html/T_JeremyAnsel_ColorQuant_WuAlphaColorQuantizer.htm" />
+    <HelpKINode Title="constructor" Url="html/M_JeremyAnsel_ColorQuant_WuAlphaColorQuantizer__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_JeremyAnsel_ColorQuant_WuAlphaColorQuantizer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WuAlphaColorQuantizer.Quantize method" Url="html/Overload_JeremyAnsel_ColorQuant_WuAlphaColorQuantizer_Quantize.htm" />
+  <HelpKINode Title="WuAlphaColorQuantizer.WuAlphaColorQuantizer constructor" Url="html/M_JeremyAnsel_ColorQuant_WuAlphaColorQuantizer__ctor.htm" />
+  <HelpKINode Title="WuColorQuantizer class">
+    <HelpKINode Title="WuColorQuantizer Class" Url="html/T_JeremyAnsel_ColorQuant_WuColorQuantizer.htm" />
+    <HelpKINode Title="about WuColorQuantizer class" Url="html/T_JeremyAnsel_ColorQuant_WuColorQuantizer.htm" />
+    <HelpKINode Title="constructor" Url="html/M_JeremyAnsel_ColorQuant_WuColorQuantizer__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_JeremyAnsel_ColorQuant_WuColorQuantizer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WuColorQuantizer.Quantize method" Url="html/Overload_JeremyAnsel_ColorQuant_WuColorQuantizer_Quantize.htm" />
+  <HelpKINode Title="WuColorQuantizer.WuColorQuantizer constructor" Url="html/M_JeremyAnsel_ColorQuant_WuColorQuantizer__ctor.htm" />
+</HelpKI>
