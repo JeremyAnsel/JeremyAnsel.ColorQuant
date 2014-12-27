@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<topic id="Welcome" revisionNumber="1">
+  <developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>
+        This is the documentation for JeremyAnsel.ColorQuant.
+      </para>
+    </introduction>
+
+    <section>
+      <title>Description</title>
+      <content>
+        <para>
+          JeremyAnsel.ColorQuant is a .Net color quantizer based on Xiaolin Wu's Color Quantizer.
+          For a given 32-bit RGB or ARGB image, it will produce a 8-bit palletized image.
+        </para>
+
+        <para>
+          C Implementation of Xiaolin Wu's Color Quantizer (v. 2) (see Graphics Gems volume II, pages 126-133) :
+          <externalLink>
+            <linkText>http://www.ece.mcmaster.ca/~xwu/cq.c</linkText>
+            <linkUri>http://www.ece.mcmaster.ca/~xwu/cq.c</linkUri>
+          </externalLink>.
+        </para>
+
+        <quote>
+          Algorithm: Greedy orthogonal bipartition of RGB space for variance minimization aided by inclusion-exclusion tricks. For speed no nearest neighbor search is done. Slightly better performance can be expected by more sophisticated but more expensive versions.
+        </quote>
+
+      </content>
+    </section>
+
+    <relatedTopics>
+      <link xlink:href="VersionHistory" />
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>
