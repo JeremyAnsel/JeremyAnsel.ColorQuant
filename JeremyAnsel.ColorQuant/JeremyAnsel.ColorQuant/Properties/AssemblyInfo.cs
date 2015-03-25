@@ -1,6 +1,9 @@
 // <copyright file="AssemblyInfo.cs" company="Jérémy Ansel">
-// Copyright (c) Jérémy Ansel 2014
+// Copyright (c) 2014-2015 Jérémy Ansel
 // </copyright>
+// <license>
+// Licensed under the MIT license. See LICENSE.txt
+// </license>
 
 using System;
 using System.Reflection;
@@ -17,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Jérémy Ansel")]
 [assembly: AssemblyProduct("JeremyAnsel.ColorQuant")]
-[assembly: AssemblyCopyright("Copyright © Jérémy Ansel 2014")]
+[assembly: AssemblyCopyright("Copyright © 2014-2015 Jérémy Ansel")]
 [assembly: AssemblyTrademark("Xiaolin Wu 1992")]
 [assembly: AssemblyCulture("")]
 

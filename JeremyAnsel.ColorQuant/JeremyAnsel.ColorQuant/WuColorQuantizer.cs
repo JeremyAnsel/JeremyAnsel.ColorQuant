@@ -1,6 +1,9 @@
 ﻿// <copyright file="WuColorQuantizer.cs" company="Jérémy Ansel">
-// Copyright (c) Jérémy Ansel 2014
+// Copyright (c) 2014-2015 Jérémy Ansel
 // </copyright>
+// <license>
+// Licensed under the MIT license. See LICENSE.txt
+// </license>
 
 namespace JeremyAnsel.ColorQuant
 {
