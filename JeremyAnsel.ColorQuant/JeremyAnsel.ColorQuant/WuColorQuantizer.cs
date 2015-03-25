@@ -8,11 +8,11 @@ namespace JeremyAnsel.ColorQuant
     using System.Diagnostics.CodeAnalysis;
 
     /// <summary>
-    /// A Wu's color $quantizer$.
+    /// A Wu's color quantizer.
     /// </summary>
     /// <remarks>
     /// <para>
-    /// Based on C Implementation of $Xiaolin Wu's Color Quantizer$ (v. 2)
+    /// Based on C Implementation of Xiaolin Wu's Color Quantizer (v. 2)
     /// (see Graphics Gems volume II, pages 126-133)
     /// (<see href="http://www.ece.mcmaster.ca/~xwu/cq.c"/>).
     /// </para>

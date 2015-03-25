@@ -5,7 +5,7 @@
 namespace JeremyAnsel.ColorQuant
 {
     /// <summary>
-    /// Defines a color $quantizer$.
+    /// Defines a color quantizer.
     /// </summary>
     public interface IColorQuantizer
     {

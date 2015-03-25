@@ -15,6 +15,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{8B79D1
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{38BF32EE-0859-492F-AF4F-B0E316226A98}"
+	ProjectSection(SolutionItems) = preProject
+		AllRulesAsErrors.ruleset = AllRulesAsErrors.ruleset
+		CustomDictionary.xml = CustomDictionary.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,7 +32,6 @@ Global
 		{1E1087CD-FC24-4AD0-9BAC-708B331739A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E1087CD-FC24-4AD0-9BAC-708B331739A3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{874A1266-0D83-4BB1-BA0B-01F831621371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{874A1266-0D83-4BB1-BA0B-01F831621371}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{874A1266-0D83-4BB1-BA0B-01F831621371}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{874A1266-0D83-4BB1-BA0B-01F831621371}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
