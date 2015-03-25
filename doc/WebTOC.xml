@@ -2,39 +2,39 @@
 <HelpTOC>
 
   <HelpTOCNode Title="Welcome" Url="html/Welcome.htm" />
-  <HelpTOCNode Id="f59117f4-34f5-48e9-9875-e0e1e9993447" Title="Version History" Url="html/VersionHistory.htm">
+  <HelpTOCNode Id="9c357cde-34f1-4c2a-b009-48ba92fc367e" Title="Version History" Url="html/VersionHistory.htm">
     <HelpTOCNode Title="Version 1.0" Url="html/VersionHistory-v1_0.htm" />
   </HelpTOCNode>
-  <HelpTOCNode Id="159a36b7-f3ef-4caf-855d-ec78c8e2eee1" Title="JeremyAnsel.ColorQuant" Url="html/N_JeremyAnsel_ColorQuant.htm">
-    <HelpTOCNode Id="be559957-d0f5-4fbb-910c-14f934f41f91" Title="ColorQuantizerResult Class" Url="html/T_JeremyAnsel_ColorQuant_ColorQuantizerResult.htm">
+  <HelpTOCNode Id="8b1055fe-00ef-40d8-b98c-35df9c61d91f" Title="JeremyAnsel.ColorQuant" Url="html/N_JeremyAnsel_ColorQuant.htm">
+    <HelpTOCNode Id="99d1d18a-f23f-43a0-8fb9-08a43fccb743" Title="ColorQuantizerResult Class" Url="html/T_JeremyAnsel_ColorQuant_ColorQuantizerResult.htm">
       <HelpTOCNode Title="ColorQuantizerResult Constructor " Url="html/M_JeremyAnsel_ColorQuant_ColorQuantizerResult__ctor.htm" />
       <HelpTOCNode Title="ColorQuantizerResult Methods" Url="html/Methods_T_JeremyAnsel_ColorQuant_ColorQuantizerResult.htm" />
-      <HelpTOCNode Id="777be51b-d27a-4877-920d-dcf75b4cc211" Title="ColorQuantizerResult Properties" Url="html/Properties_T_JeremyAnsel_ColorQuant_ColorQuantizerResult.htm">
+      <HelpTOCNode Id="da41550e-73f7-4b4d-ba23-c42ccd4fff74" Title="ColorQuantizerResult Properties" Url="html/Properties_T_JeremyAnsel_ColorQuant_ColorQuantizerResult.htm">
         <HelpTOCNode Title="Bytes Property " Url="html/P_JeremyAnsel_ColorQuant_ColorQuantizerResult_Bytes.htm" />
         <HelpTOCNode Title="Palette Property " Url="html/P_JeremyAnsel_ColorQuant_ColorQuantizerResult_Palette.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="5215699d-498f-4f85-93f4-5ee3bd7c44bf" Title="IColorQuantizer Interface" Url="html/T_JeremyAnsel_ColorQuant_IColorQuantizer.htm">
-      <HelpTOCNode Id="3f78e8b5-83e1-4138-93ad-0abb68dc521d" Title="IColorQuantizer Methods" Url="html/Methods_T_JeremyAnsel_ColorQuant_IColorQuantizer.htm">
-        <HelpTOCNode Id="46b4e048-09d9-4dda-a0dd-0a0802158338" Title="Quantize Method " Url="html/Overload_JeremyAnsel_ColorQuant_IColorQuantizer_Quantize.htm">
+    <HelpTOCNode Id="26c65bc3-2205-4b84-a8d2-7d3744c17df9" Title="IColorQuantizer Interface" Url="html/T_JeremyAnsel_ColorQuant_IColorQuantizer.htm">
+      <HelpTOCNode Id="c463fef6-b104-4da1-9d16-0604b146c4c5" Title="IColorQuantizer Methods" Url="html/Methods_T_JeremyAnsel_ColorQuant_IColorQuantizer.htm">
+        <HelpTOCNode Id="7ec433c7-6ff4-47a5-bb44-9b581455c54a" Title="Quantize Method " Url="html/Overload_JeremyAnsel_ColorQuant_IColorQuantizer_Quantize.htm">
           <HelpTOCNode Title="Quantize Method (Byte[])" Url="html/M_JeremyAnsel_ColorQuant_IColorQuantizer_Quantize.htm" />
           <HelpTOCNode Title="Quantize Method (Byte[], Int32)" Url="html/M_JeremyAnsel_ColorQuant_IColorQuantizer_Quantize_1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="07988efb-d7cc-4c73-82be-36edd8293301" Title="WuAlphaColorQuantizer Class" Url="html/T_JeremyAnsel_ColorQuant_WuAlphaColorQuantizer.htm">
+    <HelpTOCNode Id="fd03412f-7dcf-4d20-949c-4d914468869a" Title="WuAlphaColorQuantizer Class" Url="html/T_JeremyAnsel_ColorQuant_WuAlphaColorQuantizer.htm">
       <HelpTOCNode Title="WuAlphaColorQuantizer Constructor " Url="html/M_JeremyAnsel_ColorQuant_WuAlphaColorQuantizer__ctor.htm" />
-      <HelpTOCNode Id="51dc41af-bdd3-4f14-a04f-e10704e06514" Title="WuAlphaColorQuantizer Methods" Url="html/Methods_T_JeremyAnsel_ColorQuant_WuAlphaColorQuantizer.htm">
-        <HelpTOCNode Id="7daad58e-3e95-40eb-87c6-3d7ea3ec972a" Title="Quantize Method " Url="html/Overload_JeremyAnsel_ColorQuant_WuAlphaColorQuantizer_Quantize.htm">
+      <HelpTOCNode Id="85d31a1b-9298-41f5-933a-e2d08149fd11" Title="WuAlphaColorQuantizer Methods" Url="html/Methods_T_JeremyAnsel_ColorQuant_WuAlphaColorQuantizer.htm">
+        <HelpTOCNode Id="df945b6f-eec0-413a-9fab-3c9903f8d069" Title="Quantize Method " Url="html/Overload_JeremyAnsel_ColorQuant_WuAlphaColorQuantizer_Quantize.htm">
           <HelpTOCNode Title="Quantize Method (Byte[])" Url="html/M_JeremyAnsel_ColorQuant_WuAlphaColorQuantizer_Quantize.htm" />
           <HelpTOCNode Title="Quantize Method (Byte[], Int32)" Url="html/M_JeremyAnsel_ColorQuant_WuAlphaColorQuantizer_Quantize_1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="3deca6a6-a28c-4872-baec-e0bd582b50f6" Title="WuColorQuantizer Class" Url="html/T_JeremyAnsel_ColorQuant_WuColorQuantizer.htm">
+    <HelpTOCNode Id="14deddb9-8011-4376-8419-c1e97f8fbc61" Title="WuColorQuantizer Class" Url="html/T_JeremyAnsel_ColorQuant_WuColorQuantizer.htm">
       <HelpTOCNode Title="WuColorQuantizer Constructor " Url="html/M_JeremyAnsel_ColorQuant_WuColorQuantizer__ctor.htm" />
-      <HelpTOCNode Id="0083bfb9-4739-4c60-a203-088596714792" Title="WuColorQuantizer Methods" Url="html/Methods_T_JeremyAnsel_ColorQuant_WuColorQuantizer.htm">
-        <HelpTOCNode Id="aad641d2-7958-45f9-bff7-16f1140ba313" Title="Quantize Method " Url="html/Overload_JeremyAnsel_ColorQuant_WuColorQuantizer_Quantize.htm">
+      <HelpTOCNode Id="c6a4d697-05e0-4a83-9e0a-77829a73c277" Title="WuColorQuantizer Methods" Url="html/Methods_T_JeremyAnsel_ColorQuant_WuColorQuantizer.htm">
+        <HelpTOCNode Id="30af25f9-0b51-41fb-89a4-40fe0eb44ea8" Title="Quantize Method " Url="html/Overload_JeremyAnsel_ColorQuant_WuColorQuantizer_Quantize.htm">
           <HelpTOCNode Title="Quantize Method (Byte[])" Url="html/M_JeremyAnsel_ColorQuant_WuColorQuantizer_Quantize.htm" />
           <HelpTOCNode Title="Quantize Method (Byte[], Int32)" Url="html/M_JeremyAnsel_ColorQuant_WuColorQuantizer_Quantize_1.htm" />
         </HelpTOCNode>
