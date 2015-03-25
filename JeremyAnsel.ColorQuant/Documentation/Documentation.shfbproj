@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <!-- NOTE: Update the version number in the path to match the package version -->
@@ -50,7 +50,7 @@
     <ContentPlacement>AboveNamespaces</ContentPlacement>
     <VisibleItems>InheritedMembers, InheritedFrameworkMembers, Protected, ProtectedInternalAsProtected</VisibleItems>
     <MissingTags>Summary, Parameter, Returns, AutoDocumentCtors, TypeParameter, AutoDocumentDispose</MissingTags>
-    <CopyrightText>Copyright &amp;#169%3b J&amp;#233%3br&amp;#233%3bmy Ansel 2014</CopyrightText>
+    <CopyrightText>Copyright &amp;#169%3b 2014-2015 J&amp;#233%3br&amp;#233%3bmy Ansel</CopyrightText>
     <CopyrightHref>https://github.com/JeremyAnsel/JeremyAnsel.ColorQuant</CopyrightHref>
     <FooterText>
     </FooterText>
