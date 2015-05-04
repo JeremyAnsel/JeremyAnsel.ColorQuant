@@ -1,28 +1,39 @@
 version: 1.0.{build}
 configuration: Release
+
 init:
 - if "%APPVEYOR_REPO_NAME%" == "JeremyAnsel/JeremyAnsel.ColorQuant" if "%APPVEYOR_REPO_BRANCH%"=="master" if not defined APPVEYOR_PULL_REQUEST_NUMBER set DEPLOY=True
+
 assembly_info:
   patch: true
   file: '**\AssemblyInfo.*'
   assembly_version: 1.0.0
   assembly_file_version: '{version}'
   assembly_informational_version: '{version}'
+
 environment:
   GITHUB_TOKEN:
     secure: awbDbCVBldNyz+7VzGnSLlBnczS0NtXrUaS7UkrwoOoUIAzE70QHYfKQuTyOJavb
+
 nuget:
   disable_publish_on_pr: true
+
 before_build:
 - nuget install EWSoftware.SHFB -o JeremyAnsel.ColorQuant\packages\
 - nuget restore JeremyAnsel.ColorQuant\JeremyAnsel.ColorQuant.sln
+
 build:
   project: JeremyAnsel.ColorQuant\JeremyAnsel.ColorQuant.sln
   publish_nuget: true
   verbosity: minimal
+
 after_build:
 - if not defined APPVEYOR_PULL_REQUEST_NUMBER 7z a JeremyAnsel.ColorQuant.Documentation.zip .\JeremyAnsel.ColorQuant\Documentation\build\* > nul
 - if not defined APPVEYOR_PULL_REQUEST_NUMBER appveyor PushArtifact JeremyAnsel.ColorQuant.Documentation.zip
+
+test_script:
+- JeremyAnsel.ColorQuant\run-tests.cmd
+
 deploy:
 - provider: NuGet
   api_key:
@@ -31,6 +42,7 @@ deploy:
   on:
     branch: master
     DEPLOY: True
+
 after_deploy:
 - if "%DEPLOY%" == "True" git clone -q --branch=gh-pages --depth 5 git://github.com/JeremyAnsel/JeremyAnsel.ColorQuant.git gh-pages
 - if "%DEPLOY%" == "True" cd gh-pages

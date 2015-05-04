@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		CustomDictionary.xml = CustomDictionary.xml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeremyAnsel.ColorQuant.Tests", "JeremyAnsel.ColorQuant.Tests\JeremyAnsel.ColorQuant.Tests.csproj", "{01931409-D39A-4A39-BC43-58423522176D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{874A1266-0D83-4BB1-BA0B-01F831621371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{874A1266-0D83-4BB1-BA0B-01F831621371}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{874A1266-0D83-4BB1-BA0B-01F831621371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01931409-D39A-4A39-BC43-58423522176D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01931409-D39A-4A39-BC43-58423522176D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01931409-D39A-4A39-BC43-58423522176D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01931409-D39A-4A39-BC43-58423522176D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
