@@ -13,6 +13,7 @@ Description     | Value
 License         | [The MIT License (MIT)](https://github.com/JeremyAnsel/JeremyAnsel.ColorQuant/blob/master/LICENSE.txt)
 Web site        | http://jeremyansel.github.io/JeremyAnsel.ColorQuant
 Documentation   | http://jeremyansel.github.io/JeremyAnsel.ColorQuant/doc
+Code coverage   | https://jeremyansel.github.io/JeremyAnsel.ColorQuant/coverage
 Source code     | https://github.com/JeremyAnsel/JeremyAnsel.ColorQuant
 Nuget           | https://www.nuget.org/packages/JeremyAnsel.ColorQuant
 Build           | https://ci.appveyor.com/project/JeremyAnsel/jeremyansel-colorquant/branch/master
