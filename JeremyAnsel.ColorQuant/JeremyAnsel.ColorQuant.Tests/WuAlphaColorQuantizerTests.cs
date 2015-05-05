@@ -315,5 +315,41 @@ namespace JeremyAnsel.ColorQuant.Tests
 
             Assert.Equal(expectedImage, resultImage);
         }
+
+        /// <summary>
+        /// Tests a 256 colors palette.
+        /// </summary>
+        [Fact]
+        public void Palette256()
+        {
+            byte[] image = new byte[4 * 256];
+
+            for (int i = 0; i < 256; i++)
+            {
+                image[i * 4] = (byte)((i % 4) * 85);
+                image[(i * 4) + 1] = (byte)(((i / 4) % 4) * 85);
+                image[(i * 4) + 2] = (byte)(((i / 16) % 4) * 85);
+                image[(i * 4) + 3] = (byte)((i / 64) * 85);
+            }
+
+            var result = this.quantizer.Quantize(image);
+
+            Assert.Equal(4 * 256, result.Palette.Length);
+            Assert.Equal(256, result.Bytes.Length);
+
+            byte[] resultImage = new byte[4 * 256];
+
+            for (int i = 0; i < 256; i++)
+            {
+                byte pal = result.Bytes[i];
+
+                resultImage[i * 4] = result.Palette[pal * 4];
+                resultImage[(i * 4) + 1] = result.Palette[(pal * 4) + 1];
+                resultImage[(i * 4) + 2] = result.Palette[(pal * 4) + 2];
+                resultImage[(i * 4) + 3] = result.Palette[(pal * 4) + 3];
+            }
+
+            Assert.Equal(image, resultImage);
+        }
     }
 }
