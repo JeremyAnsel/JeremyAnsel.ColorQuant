@@ -2,7 +2,7 @@
 <CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Summary numSequencePoints="507" visitedSequencePoints="493" numBranchPoints="200" visitedBranchPoints="187" sequenceCoverage="97.24" branchCoverage="93.5" maxCyclomaticComplexity="16" minCyclomaticComplexity="1" />
   <Modules>
-    <Module hash="ED-B6-5B-EF-4A-EA-15-B6-95-8F-3E-8F-A9-EB-80-E9-10-EA-F0-BE">
+    <Module hash="D8-70-29-35-05-E1-CD-EB-90-4B-8A-52-BC-B2-0D-3D-53-C5-21-30">
       <Summary numSequencePoints="507" visitedSequencePoints="493" numBranchPoints="200" visitedBranchPoints="187" sequenceCoverage="97.24" branchCoverage="93.5" maxCyclomaticComplexity="16" minCyclomaticComplexity="1" />
       <FullName>C:\projects\jeremyansel-colorquant\JeremyAnsel.ColorQuant\JeremyAnsel.ColorQuant.Tests\bin\Release\JeremyAnsel.ColorQuant.dll</FullName>
       <ModuleName>JeremyAnsel.ColorQuant</ModuleName>
