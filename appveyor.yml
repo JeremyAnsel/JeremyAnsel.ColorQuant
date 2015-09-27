@@ -19,7 +19,7 @@ nuget:
   disable_publish_on_pr: true
 
 before_build:
-- nuget install EWSoftware.SHFB -o JeremyAnsel.ColorQuant\packages\
+- nuget install EWSoftware.SHFB -Version 2014.11.22 -o JeremyAnsel.ColorQuant\packages\
 - nuget restore JeremyAnsel.ColorQuant\JeremyAnsel.ColorQuant.sln
 
 build:
