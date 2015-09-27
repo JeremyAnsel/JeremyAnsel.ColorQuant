@@ -325,7 +325,7 @@ var translations = {
 'uncovered': 'Uncovered',
 'coverable': 'Coverable',
 'total': 'Total',
-'coverage': 'Line Coverage',
+'coverage': 'Line coverage',
 'branchCoverage': 'Branch coverage',
 'history': 'History'
 };

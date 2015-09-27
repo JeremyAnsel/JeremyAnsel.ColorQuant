@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Summary numSequencePoints="507" visitedSequencePoints="493" numBranchPoints="200" visitedBranchPoints="187" sequenceCoverage="97.24" branchCoverage="93.5" maxCyclomaticComplexity="16" minCyclomaticComplexity="1" />
+  <Summary numSequencePoints="507" visitedSequencePoints="493" numBranchPoints="200" visitedBranchPoints="187" sequenceCoverage="97.24" branchCoverage="93.5" maxCyclomaticComplexity="16" minCyclomaticComplexity="1" visitedClasses="3" numClasses="3" visitedMethods="33" numMethods="33" />
   <Modules>
-    <Module hash="D8-70-29-35-05-E1-CD-EB-90-4B-8A-52-BC-B2-0D-3D-53-C5-21-30">
-      <Summary numSequencePoints="507" visitedSequencePoints="493" numBranchPoints="200" visitedBranchPoints="187" sequenceCoverage="97.24" branchCoverage="93.5" maxCyclomaticComplexity="16" minCyclomaticComplexity="1" />
+    <Module hash="66-25-36-B0-8B-82-4B-E9-D2-4E-15-C1-F8-B2-15-E9-60-08-1D-6D">
+      <Summary numSequencePoints="507" visitedSequencePoints="493" numBranchPoints="200" visitedBranchPoints="187" sequenceCoverage="97.24" branchCoverage="93.5" maxCyclomaticComplexity="16" minCyclomaticComplexity="1" visitedClasses="3" numClasses="3" visitedMethods="33" numMethods="33" />
       <FullName>C:\projects\jeremyansel-colorquant\JeremyAnsel.ColorQuant\JeremyAnsel.ColorQuant.Tests\bin\Release\JeremyAnsel.ColorQuant.dll</FullName>
       <ModuleName>JeremyAnsel.ColorQuant</ModuleName>
       <Files>
@@ -13,11 +13,11 @@
       </Files>
       <Classes>
         <Class>
-          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
           <FullName>JeremyAnsel.ColorQuant.Box</FullName>
           <Methods>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663297</MetadataToken>
               <Name>System.Int32 JeremyAnsel.ColorQuant.Box::get_R0()</Name>
               <SequencePoints />
@@ -25,7 +25,7 @@
               <MethodPoint vc="3333727" uspid="1" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663298</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.Box::set_R0(System.Int32)</Name>
               <SequencePoints />
@@ -33,7 +33,7 @@
               <MethodPoint vc="1291" uspid="2" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663299</MetadataToken>
               <Name>System.Int32 JeremyAnsel.ColorQuant.Box::get_R1()</Name>
               <SequencePoints />
@@ -41,7 +41,7 @@
               <MethodPoint vc="3332894" uspid="3" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663300</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.Box::set_R1(System.Int32)</Name>
               <SequencePoints />
@@ -49,7 +49,7 @@
               <MethodPoint vc="1770" uspid="4" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663301</MetadataToken>
               <Name>System.Int32 JeremyAnsel.ColorQuant.Box::get_G0()</Name>
               <SequencePoints />
@@ -57,7 +57,7 @@
               <MethodPoint vc="2953674" uspid="5" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663302</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.Box::set_G0(System.Int32)</Name>
               <SequencePoints />
@@ -65,7 +65,7 @@
               <MethodPoint vc="1291" uspid="6" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663303</MetadataToken>
               <Name>System.Int32 JeremyAnsel.ColorQuant.Box::get_G1()</Name>
               <SequencePoints />
@@ -73,7 +73,7 @@
               <MethodPoint vc="5576979" uspid="7" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663304</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.Box::set_G1(System.Int32)</Name>
               <SequencePoints />
@@ -81,7 +81,7 @@
               <MethodPoint vc="1524" uspid="8" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663305</MetadataToken>
               <Name>System.Int32 JeremyAnsel.ColorQuant.Box::get_B0()</Name>
               <SequencePoints />
@@ -89,7 +89,7 @@
               <MethodPoint vc="5539469" uspid="9" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663306</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.Box::set_B0(System.Int32)</Name>
               <SequencePoints />
@@ -97,7 +97,7 @@
               <MethodPoint vc="1291" uspid="10" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663307</MetadataToken>
               <Name>System.Int32 JeremyAnsel.ColorQuant.Box::get_B1()</Name>
               <SequencePoints />
@@ -105,7 +105,7 @@
               <MethodPoint vc="22789779" uspid="11" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663308</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.Box::set_B1(System.Int32)</Name>
               <SequencePoints />
@@ -113,7 +113,7 @@
               <MethodPoint vc="1713" uspid="12" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663309</MetadataToken>
               <Name>System.Int32 JeremyAnsel.ColorQuant.Box::get_A0()</Name>
               <SequencePoints />
@@ -121,7 +121,7 @@
               <MethodPoint vc="6577507" uspid="13" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663310</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.Box::set_A0(System.Int32)</Name>
               <SequencePoints />
@@ -129,7 +129,7 @@
               <MethodPoint vc="522" uspid="14" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663311</MetadataToken>
               <Name>System.Int32 JeremyAnsel.ColorQuant.Box::get_A1()</Name>
               <SequencePoints />
@@ -137,7 +137,7 @@
               <MethodPoint vc="23323666" uspid="15" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663312</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.Box::set_A1(System.Int32)</Name>
               <SequencePoints />
@@ -145,7 +145,7 @@
               <MethodPoint vc="665" uspid="16" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663313</MetadataToken>
               <Name>System.Int32 JeremyAnsel.ColorQuant.Box::get_Volume()</Name>
               <SequencePoints />
@@ -153,7 +153,7 @@
               <MethodPoint vc="2554" uspid="17" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663314</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.Box::set_Volume(System.Int32)</Name>
               <SequencePoints />
@@ -161,7 +161,7 @@
               <MethodPoint vc="2554" uspid="18" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663315</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.Box::.ctor()</Name>
               <SequencePoints />
@@ -171,11 +171,11 @@
           </Methods>
         </Class>
         <Class>
-          <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="1" />
+          <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
           <FullName>JeremyAnsel.ColorQuant.ColorQuantizerResult</FullName>
           <Methods>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663319</MetadataToken>
               <Name>System.Byte[] JeremyAnsel.ColorQuant.ColorQuantizerResult::get_Palette()</Name>
               <SequencePoints />
@@ -183,7 +183,7 @@
               <MethodPoint vc="16446" uspid="20" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663320</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.ColorQuantizerResult::set_Palette(System.Byte[])</Name>
               <SequencePoints />
@@ -191,7 +191,7 @@
               <MethodPoint vc="15" uspid="21" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663321</MetadataToken>
               <Name>System.Byte[] JeremyAnsel.ColorQuant.ColorQuantizerResult::get_Bytes()</Name>
               <SequencePoints />
@@ -199,7 +199,7 @@
               <MethodPoint vc="5653" uspid="22" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
-              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
               <MetadataToken>100663322</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.ColorQuantizerResult::set_Bytes(System.Byte[])</Name>
               <SequencePoints />
@@ -207,7 +207,7 @@
               <MethodPoint vc="15" uspid="23" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="4" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" />
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663318</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.ColorQuantizerResult::.ctor(System.Int32,System.Int32)</Name>
               <FileRef uid="1" />
@@ -234,11 +234,11 @@
           </Methods>
         </Class>
         <Class>
-          <Summary numSequencePoints="278" visitedSequencePoints="271" numBranchPoints="105" visitedBranchPoints="98" sequenceCoverage="97.48" branchCoverage="93.33" maxCyclomaticComplexity="16" minCyclomaticComplexity="1" />
+          <Summary numSequencePoints="278" visitedSequencePoints="271" numBranchPoints="105" visitedBranchPoints="98" sequenceCoverage="97.48" branchCoverage="93.33" maxCyclomaticComplexity="16" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="16" numMethods="16" />
           <FullName>JeremyAnsel.ColorQuant.WuAlphaColorQuantizer</FullName>
           <Methods>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663323</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.WuAlphaColorQuantizer::.ctor()</Name>
               <FileRef uid="2" />
@@ -257,7 +257,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="1" uspid="38" ordinal="0" offset="0" sl="96" sc="9" el="96" ec="39" bec="0" bev="0" fileid="2" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663324</MetadataToken>
               <Name>JeremyAnsel.ColorQuant.ColorQuantizerResult JeremyAnsel.ColorQuant.WuAlphaColorQuantizer::Quantize(System.Byte[])</Name>
               <FileRef uid="2" />
@@ -268,7 +268,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="9" uspid="47" ordinal="0" offset="0" sl="115" sc="13" el="115" ec="46" bec="0" bev="0" fileid="2" />
             </Method>
             <Method visited="true" cyclomaticComplexity="4" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" />
+              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663325</MetadataToken>
               <Name>JeremyAnsel.ColorQuant.ColorQuantizerResult JeremyAnsel.ColorQuant.WuAlphaColorQuantizer::Quantize(System.Byte[],System.Int32)</Name>
               <FileRef uid="2" />
@@ -294,7 +294,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="12" uspid="48" ordinal="0" offset="0" sl="126" sc="13" el="126" ec="31" bec="2" bev="2" fileid="2" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663326</MetadataToken>
               <Name>System.Int32 JeremyAnsel.ColorQuant.WuAlphaColorQuantizer::Ind(System.Int32,System.Int32,System.Int32,System.Int32)</Name>
               <FileRef uid="2" />
@@ -305,7 +305,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="54193476" uspid="63" ordinal="0" offset="0" sl="157" sc="13" el="164" ec="33" bec="0" bev="0" fileid="2" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663327</MetadataToken>
               <Name>System.Double JeremyAnsel.ColorQuant.WuAlphaColorQuantizer::Volume(JeremyAnsel.ColorQuant.Box,System.Int64[])</Name>
               <FileRef uid="2" />
@@ -316,7 +316,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="11645" uspid="64" ordinal="0" offset="0" sl="175" sc="13" el="190" ec="89" bec="0" bev="0" fileid="2" />
             </Method>
             <Method visited="true" cyclomaticComplexity="6" sequenceCoverage="83.33" branchCoverage="83.33" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="6" visitedSequencePoints="5" numBranchPoints="6" visitedBranchPoints="5" sequenceCoverage="83.33" branchCoverage="83.33" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" />
+              <Summary numSequencePoints="6" visitedSequencePoints="5" numBranchPoints="6" visitedBranchPoints="5" sequenceCoverage="83.33" branchCoverage="83.33" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663328</MetadataToken>
               <Name>System.Int64 JeremyAnsel.ColorQuant.WuAlphaColorQuantizer::Bottom(JeremyAnsel.ColorQuant.Box,System.Int32,System.Int64[])</Name>
               <FileRef uid="2" />
@@ -338,7 +338,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="15600" uspid="65" ordinal="0" offset="0" sl="202" sc="13" el="202" ec="31" bec="5" bev="4" fileid="2" />
             </Method>
             <Method visited="true" cyclomaticComplexity="6" sequenceCoverage="83.33" branchCoverage="83.33" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="6" visitedSequencePoints="5" numBranchPoints="6" visitedBranchPoints="5" sequenceCoverage="83.33" branchCoverage="83.33" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" />
+              <Summary numSequencePoints="6" visitedSequencePoints="5" numBranchPoints="6" visitedBranchPoints="5" sequenceCoverage="83.33" branchCoverage="83.33" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663329</MetadataToken>
               <Name>System.Int64 JeremyAnsel.ColorQuant.WuAlphaColorQuantizer::Top(JeremyAnsel.ColorQuant.Box,System.Int32,System.Int32,System.Int64[])</Name>
               <FileRef uid="2" />
@@ -360,7 +360,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="441400" uspid="76" ordinal="0" offset="0" sl="263" sc="13" el="263" ec="31" bec="5" bev="4" fileid="2" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663330</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.WuAlphaColorQuantizer::Clear()</Name>
               <FileRef uid="2" />
@@ -378,7 +378,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="8" uspid="87" ordinal="0" offset="0" sl="319" sc="13" el="319" ec="73" bec="0" bev="0" fileid="2" />
             </Method>
             <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="19" visitedSequencePoints="19" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" />
+              <Summary numSequencePoints="19" visitedSequencePoints="19" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663331</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.WuAlphaColorQuantizer::Hist3d(System.Byte[])</Name>
               <FileRef uid="2" />
@@ -410,7 +410,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="8" uspid="95" ordinal="0" offset="0" sl="335" sc="18" el="335" ec="28" bec="0" bev="0" fileid="2" />
             </Method>
             <Method visited="true" cyclomaticComplexity="5" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="70" visitedSequencePoints="70" numBranchPoints="9" visitedBranchPoints="9" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" />
+              <Summary numSequencePoints="70" visitedSequencePoints="70" numBranchPoints="9" visitedBranchPoints="9" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663332</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.WuAlphaColorQuantizer::M3d()</Name>
               <FileRef uid="2" />
@@ -499,7 +499,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="8" uspid="116" ordinal="0" offset="0" sl="364" sc="13" el="364" ec="112" bec="0" bev="0" fileid="2" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663333</MetadataToken>
               <Name>System.Double JeremyAnsel.ColorQuant.WuAlphaColorQuantizer::Var(JeremyAnsel.ColorQuant.Box)</Name>
               <FileRef uid="2" />
@@ -515,7 +515,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="1027" uspid="194" ordinal="0" offset="0" sl="453" sc="13" el="453" ec="70" bec="0" bev="0" fileid="2" />
             </Method>
             <Method visited="true" cyclomaticComplexity="5" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="28" visitedSequencePoints="28" numBranchPoints="9" visitedBranchPoints="9" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" />
+              <Summary numSequencePoints="28" visitedSequencePoints="28" numBranchPoints="9" visitedBranchPoints="9" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663334</MetadataToken>
               <Name>System.Double JeremyAnsel.ColorQuant.WuAlphaColorQuantizer::Maximize(JeremyAnsel.ColorQuant.Box,System.Int32,System.Int32,System.Int32,System.Int32&amp;,System.Double,System.Double,System.Double,System.Double,System.Double)</Name>
               <FileRef uid="2" />
@@ -562,7 +562,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="3120" uspid="200" ordinal="0" offset="0" sl="499" sc="13" el="499" ec="83" bec="0" bev="0" fileid="2" />
             </Method>
             <Method visited="true" cyclomaticComplexity="16" sequenceCoverage="100" branchCoverage="92.31" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="45" visitedSequencePoints="45" numBranchPoints="26" visitedBranchPoints="24" sequenceCoverage="100" branchCoverage="92.31" maxCyclomaticComplexity="16" minCyclomaticComplexity="16" />
+              <Summary numSequencePoints="45" visitedSequencePoints="45" numBranchPoints="26" visitedBranchPoints="24" sequenceCoverage="100" branchCoverage="92.31" maxCyclomaticComplexity="16" minCyclomaticComplexity="16" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663335</MetadataToken>
               <Name>System.Boolean JeremyAnsel.ColorQuant.WuAlphaColorQuantizer::Cut(JeremyAnsel.ColorQuant.Box,JeremyAnsel.ColorQuant.Box)</Name>
               <FileRef uid="2" />
@@ -643,7 +643,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="780" uspid="236" ordinal="0" offset="0" sl="560" sc="13" el="560" ec="75" bec="0" bev="0" fileid="2" />
             </Method>
             <Method visited="true" cyclomaticComplexity="5" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="14" visitedSequencePoints="14" numBranchPoints="9" visitedBranchPoints="9" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" />
+              <Summary numSequencePoints="14" visitedSequencePoints="14" numBranchPoints="9" visitedBranchPoints="9" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663336</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.WuAlphaColorQuantizer::Mark(JeremyAnsel.ColorQuant.Box,System.Byte)</Name>
               <FileRef uid="2" />
@@ -676,7 +676,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="522" uspid="306" ordinal="0" offset="0" sl="653" sc="18" el="653" ec="38" bec="0" bev="0" fileid="2" />
             </Method>
             <Method visited="true" cyclomaticComplexity="11" sequenceCoverage="96.67" branchCoverage="88.24" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="30" visitedSequencePoints="29" numBranchPoints="17" visitedBranchPoints="15" sequenceCoverage="96.67" branchCoverage="88.24" maxCyclomaticComplexity="11" minCyclomaticComplexity="11" />
+              <Summary numSequencePoints="30" visitedSequencePoints="29" numBranchPoints="17" visitedBranchPoints="15" sequenceCoverage="96.67" branchCoverage="88.24" maxCyclomaticComplexity="11" minCyclomaticComplexity="11" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663337</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.WuAlphaColorQuantizer::BuildCube(JeremyAnsel.ColorQuant.Box[]&amp;,System.Int32&amp;)</Name>
               <FileRef uid="2" />
@@ -733,7 +733,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="8" uspid="328" ordinal="0" offset="0" sl="675" sc="13" el="675" ec="40" bec="0" bev="0" fileid="2" />
             </Method>
             <Method visited="true" cyclomaticComplexity="4" sequenceCoverage="84" branchCoverage="85.71" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="25" visitedSequencePoints="21" numBranchPoints="7" visitedBranchPoints="6" sequenceCoverage="84" branchCoverage="85.71" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" />
+              <Summary numSequencePoints="25" visitedSequencePoints="21" numBranchPoints="7" visitedBranchPoints="6" sequenceCoverage="84" branchCoverage="85.71" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663338</MetadataToken>
               <Name>JeremyAnsel.ColorQuant.ColorQuantizerResult JeremyAnsel.ColorQuant.WuAlphaColorQuantizer::GenerateResult(System.Byte[],System.Int32,JeremyAnsel.ColorQuant.Box[])</Name>
               <FileRef uid="2" />
@@ -777,11 +777,11 @@
           </Methods>
         </Class>
         <Class>
-          <Summary numSequencePoints="221" visitedSequencePoints="214" numBranchPoints="88" visitedBranchPoints="82" sequenceCoverage="96.83" branchCoverage="93.18" maxCyclomaticComplexity="11" minCyclomaticComplexity="1" />
+          <Summary numSequencePoints="221" visitedSequencePoints="214" numBranchPoints="88" visitedBranchPoints="82" sequenceCoverage="96.83" branchCoverage="93.18" maxCyclomaticComplexity="11" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="16" numMethods="16" />
           <FullName>JeremyAnsel.ColorQuant.WuColorQuantizer</FullName>
           <Methods>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663339</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.WuColorQuantizer::.ctor()</Name>
               <FileRef uid="3" />
@@ -799,7 +799,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="1" uspid="405" ordinal="0" offset="0" sl="81" sc="9" el="81" ec="34" bec="0" bev="0" fileid="3" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663340</MetadataToken>
               <Name>JeremyAnsel.ColorQuant.ColorQuantizerResult JeremyAnsel.ColorQuant.WuColorQuantizer::Quantize(System.Byte[])</Name>
               <FileRef uid="3" />
@@ -810,7 +810,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="7" uspid="413" ordinal="0" offset="0" sl="99" sc="13" el="99" ec="46" bec="0" bev="0" fileid="3" />
             </Method>
             <Method visited="true" cyclomaticComplexity="4" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" />
+              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663341</MetadataToken>
               <Name>JeremyAnsel.ColorQuant.ColorQuantizerResult JeremyAnsel.ColorQuant.WuColorQuantizer::Quantize(System.Byte[],System.Int32)</Name>
               <FileRef uid="3" />
@@ -836,7 +836,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="10" uspid="414" ordinal="0" offset="0" sl="110" sc="13" el="110" ec="31" bec="2" bev="2" fileid="3" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663342</MetadataToken>
               <Name>System.Int32 JeremyAnsel.ColorQuant.WuColorQuantizer::Ind(System.Int32,System.Int32,System.Int32)</Name>
               <FileRef uid="3" />
@@ -847,7 +847,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="42553322" uspid="429" ordinal="0" offset="0" sl="140" sc="13" el="140" ec="150" bec="0" bev="0" fileid="3" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663343</MetadataToken>
               <Name>System.Double JeremyAnsel.ColorQuant.WuColorQuantizer::Volume(JeremyAnsel.ColorQuant.Box,System.Int64[])</Name>
               <FileRef uid="3" />
@@ -858,7 +858,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="14280" uspid="430" ordinal="0" offset="0" sl="151" sc="13" el="158" ec="74" bec="0" bev="0" fileid="3" />
             </Method>
             <Method visited="true" cyclomaticComplexity="5" sequenceCoverage="80" branchCoverage="80" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="5" visitedSequencePoints="4" numBranchPoints="5" visitedBranchPoints="4" sequenceCoverage="80" branchCoverage="80" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" />
+              <Summary numSequencePoints="5" visitedSequencePoints="4" numBranchPoints="5" visitedBranchPoints="4" sequenceCoverage="80" branchCoverage="80" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663344</MetadataToken>
               <Name>System.Int64 JeremyAnsel.ColorQuant.WuColorQuantizer::Bottom(JeremyAnsel.ColorQuant.Box,System.Int32,System.Int64[])</Name>
               <FileRef uid="3" />
@@ -878,7 +878,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="15312" uspid="431" ordinal="0" offset="0" sl="170" sc="13" el="170" ec="31" bec="4" bev="3" fileid="3" />
             </Method>
             <Method visited="true" cyclomaticComplexity="5" sequenceCoverage="80" branchCoverage="80" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="5" visitedSequencePoints="4" numBranchPoints="5" visitedBranchPoints="4" sequenceCoverage="80" branchCoverage="80" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" />
+              <Summary numSequencePoints="5" visitedSequencePoints="4" numBranchPoints="5" visitedBranchPoints="4" sequenceCoverage="80" branchCoverage="80" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663345</MetadataToken>
               <Name>System.Int64 JeremyAnsel.ColorQuant.WuColorQuantizer::Top(JeremyAnsel.ColorQuant.Box,System.Int32,System.Int32,System.Int64[])</Name>
               <FileRef uid="3" />
@@ -898,7 +898,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="1153584" uspid="440" ordinal="0" offset="0" sl="208" sc="13" el="208" ec="31" bec="4" bev="3" fileid="3" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663346</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.WuColorQuantizer::Clear()</Name>
               <FileRef uid="3" />
@@ -915,7 +915,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="6" uspid="449" ordinal="0" offset="0" sl="241" sc="13" el="241" ec="68" bec="0" bev="0" fileid="3" />
             </Method>
             <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="16" visitedSequencePoints="16" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" />
+              <Summary numSequencePoints="16" visitedSequencePoints="16" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663347</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.WuColorQuantizer::Hist3d(System.Byte[])</Name>
               <FileRef uid="3" />
@@ -944,7 +944,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="6" uspid="456" ordinal="0" offset="0" sl="256" sc="18" el="256" ec="28" bec="0" bev="0" fileid="3" />
             </Method>
             <Method visited="true" cyclomaticComplexity="4" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="42" visitedSequencePoints="42" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" />
+              <Summary numSequencePoints="42" visitedSequencePoints="42" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663348</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.WuColorQuantizer::M3d()</Name>
               <FileRef uid="3" />
@@ -1003,7 +1003,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="6" uspid="474" ordinal="0" offset="0" sl="282" sc="13" el="282" ec="65" bec="0" bev="0" fileid="3" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663349</MetadataToken>
               <Name>System.Double JeremyAnsel.ColorQuant.WuColorQuantizer::Var(JeremyAnsel.ColorQuant.Box)</Name>
               <FileRef uid="3" />
@@ -1018,7 +1018,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="1525" uspid="522" ordinal="0" offset="0" sl="339" sc="13" el="339" ec="65" bec="0" bev="0" fileid="3" />
             </Method>
             <Method visited="true" cyclomaticComplexity="5" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="25" visitedSequencePoints="25" numBranchPoints="9" visitedBranchPoints="9" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" />
+              <Summary numSequencePoints="25" visitedSequencePoints="25" numBranchPoints="9" visitedBranchPoints="9" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663350</MetadataToken>
               <Name>System.Double JeremyAnsel.ColorQuant.WuColorQuantizer::Maximize(JeremyAnsel.ColorQuant.Box,System.Int32,System.Int32,System.Int32,System.Int32&amp;,System.Double,System.Double,System.Double,System.Double)</Name>
               <FileRef uid="3" />
@@ -1062,7 +1062,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="3828" uspid="527" ordinal="0" offset="0" sl="374" sc="13" el="374" ec="78" bec="0" bev="0" fileid="3" />
             </Method>
             <Method visited="true" cyclomaticComplexity="10" sequenceCoverage="100" branchCoverage="93.33" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="32" visitedSequencePoints="32" numBranchPoints="15" visitedBranchPoints="14" sequenceCoverage="100" branchCoverage="93.33" maxCyclomaticComplexity="10" minCyclomaticComplexity="10" />
+              <Summary numSequencePoints="32" visitedSequencePoints="32" numBranchPoints="15" visitedBranchPoints="14" sequenceCoverage="100" branchCoverage="93.33" maxCyclomaticComplexity="10" minCyclomaticComplexity="10" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663351</MetadataToken>
               <Name>System.Boolean JeremyAnsel.ColorQuant.WuColorQuantizer::Cut(JeremyAnsel.ColorQuant.Box,JeremyAnsel.ColorQuant.Box)</Name>
               <FileRef uid="3" />
@@ -1119,7 +1119,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="1276" uspid="560" ordinal="0" offset="0" sl="432" sc="13" el="432" ec="70" bec="0" bev="0" fileid="3" />
             </Method>
             <Method visited="true" cyclomaticComplexity="4" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="11" visitedSequencePoints="11" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" />
+              <Summary numSequencePoints="11" visitedSequencePoints="11" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663352</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.WuColorQuantizer::Mark(JeremyAnsel.ColorQuant.Box,System.Byte)</Name>
               <FileRef uid="3" />
@@ -1147,7 +1147,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="769" uspid="606" ordinal="0" offset="0" sl="506" sc="18" el="506" ec="38" bec="0" bev="0" fileid="3" />
             </Method>
             <Method visited="true" cyclomaticComplexity="11" sequenceCoverage="96.55" branchCoverage="88.24" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="29" visitedSequencePoints="28" numBranchPoints="17" visitedBranchPoints="15" sequenceCoverage="96.55" branchCoverage="88.24" maxCyclomaticComplexity="11" minCyclomaticComplexity="11" />
+              <Summary numSequencePoints="29" visitedSequencePoints="28" numBranchPoints="17" visitedBranchPoints="15" sequenceCoverage="96.55" branchCoverage="88.24" maxCyclomaticComplexity="11" minCyclomaticComplexity="11" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663353</MetadataToken>
               <Name>System.Void JeremyAnsel.ColorQuant.WuColorQuantizer::BuildCube(JeremyAnsel.ColorQuant.Box[]&amp;,System.Int32&amp;)</Name>
               <FileRef uid="3" />
@@ -1203,7 +1203,7 @@
               <MethodPoint xsi:type="SequencePoint" vc="6" uspid="623" ordinal="0" offset="0" sl="525" sc="13" el="525" ec="40" bec="0" bev="0" fileid="3" />
             </Method>
             <Method visited="true" cyclomaticComplexity="4" sequenceCoverage="83.33" branchCoverage="85.71" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="24" visitedSequencePoints="20" numBranchPoints="7" visitedBranchPoints="6" sequenceCoverage="83.33" branchCoverage="85.71" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" />
+              <Summary numSequencePoints="24" visitedSequencePoints="20" numBranchPoints="7" visitedBranchPoints="6" sequenceCoverage="83.33" branchCoverage="85.71" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663354</MetadataToken>
               <Name>JeremyAnsel.ColorQuant.ColorQuantizerResult JeremyAnsel.ColorQuant.WuColorQuantizer::GenerateResult(System.Byte[],System.Int32,JeremyAnsel.ColorQuant.Box[])</Name>
               <FileRef uid="3" />
