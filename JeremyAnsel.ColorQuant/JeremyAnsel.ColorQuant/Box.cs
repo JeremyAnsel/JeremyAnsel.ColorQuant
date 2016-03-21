@@ -8,7 +8,7 @@
 namespace JeremyAnsel.ColorQuant
 {
     /// <summary>
-    /// A box.
+    /// A box color cube.
     /// </summary>
     internal sealed class Box
     {
@@ -38,7 +38,7 @@ namespace JeremyAnsel.ColorQuant
         public int B0 { get; set; }
 
         /// <summary>
-        /// Gets or sets the max green value, inclusive.
+        /// Gets or sets the max blue value, inclusive.
         /// </summary>
         public int B1 { get; set; }
 
