@@ -1,15 +1,14 @@
-version: 1.0.{build}
+image: Visual Studio 2019
+version: 2.0.{build}
 configuration: Release
 
 # init:
 # - if "%APPVEYOR_REPO_NAME%" == "JeremyAnsel/JeremyAnsel.ColorQuant" if "%APPVEYOR_REPO_BRANCH%"=="master" if not defined APPVEYOR_PULL_REQUEST_NUMBER set DEPLOY=True
 
-assembly_info:
+dotnet_csproj:
   patch: true
-  file: '**\AssemblyInfo.*'
-  assembly_version: 1.0.0
-  assembly_file_version: '{version}'
-  assembly_informational_version: '{version}'
+  file: '**\*.csproj'
+  version: '{version}'
 
 # environment:
 #   GITHUB_TOKEN:
@@ -26,12 +25,12 @@ build:
   publish_nuget: true
   verbosity: minimal
 
-# after_build:
-# - if not defined APPVEYOR_PULL_REQUEST_NUMBER 7z a JeremyAnsel.ColorQuant.Documentation.zip .\JeremyAnsel.ColorQuant\Documentation\build\* > nul
-# - if not defined APPVEYOR_PULL_REQUEST_NUMBER appveyor PushArtifact JeremyAnsel.ColorQuant.Documentation.zip
+after_build:
+- if not defined APPVEYOR_PULL_REQUEST_NUMBER 7z a JeremyAnsel.ColorQuant.Documentation.zip .\JeremyAnsel.ColorQuant\Documentation\_site\* > nul
+- if not defined APPVEYOR_PULL_REQUEST_NUMBER appveyor PushArtifact JeremyAnsel.ColorQuant.Documentation.zip
 
-# test_script:
-# - JeremyAnsel.ColorQuant\run-tests.cmd
+test_script:
+- JeremyAnsel.ColorQuant\run-tests.cmd
 
 # deploy:
 # - provider: NuGet
