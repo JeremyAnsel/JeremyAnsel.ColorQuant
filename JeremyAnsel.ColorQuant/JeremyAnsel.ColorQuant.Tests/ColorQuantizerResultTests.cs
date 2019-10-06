@@ -1,5 +1,5 @@
 ﻿// <copyright file="ColorQuantizerResultTests.cs" company="Jérémy Ansel">
-// Copyright (c) 2014-2015 Jérémy Ansel
+// Copyright (c) 2014-2019 Jérémy Ansel
 // </copyright>
 // <license>
 // Licensed under the MIT license. See LICENSE.txt
