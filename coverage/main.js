@@ -224,10 +224,10 @@ var assemblies = [
   {
     "name": "JeremyAnsel.ColorQuant",
     "classes": [
-      { "name": "JeremyAnsel.ColorQuant.Box", "rp": "JeremyAnsel.ColorQuant_Box.htm", "cl": 18, "ucl": 0, "cal": 18, "tl": 121, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "JeremyAnsel.ColorQuant.ColorQuantizerResult", "rp": "JeremyAnsel.ColorQuant_ColorQuantizerResult.htm", "cl": 20, "ucl": 0, "cal": 20, "tl": 103, "ct": "LineCoverage", "mc": "-", "cb": 12, "tb": 12, "lch": [], "bch": [], "hc": [] },
-      { "name": "JeremyAnsel.ColorQuant.WuAlphaColorQuantizer", "rp": "JeremyAnsel.ColorQuant_WuAlphaColorQuantizer.htm", "cl": 668, "ucl": 14, "cal": 682, "tl": 1499, "ct": "LineCoverage", "mc": "-", "cb": 168, "tb": 178, "lch": [], "bch": [], "hc": [] },
-      { "name": "JeremyAnsel.ColorQuant.WuColorQuantizer", "rp": "JeremyAnsel.ColorQuant_WuColorQuantizer.htm", "cl": 436, "ucl": 14, "cal": 450, "tl": 1197, "ct": "LineCoverage", "mc": "-", "cb": 134, "tb": 144, "lch": [], "bch": [], "hc": [] },
+      { "name": "JeremyAnsel.ColorQuant.Box", "rp": "JeremyAnsel.ColorQuant_Box.htm", "cl": 9, "ucl": 0, "cal": 9, "tl": 60, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "JeremyAnsel.ColorQuant.ColorQuantizerResult", "rp": "JeremyAnsel.ColorQuant_ColorQuantizerResult.htm", "cl": 10, "ucl": 0, "cal": 10, "tl": 51, "ct": "LineCoverage", "mc": "-", "cb": 6, "tb": 6, "lch": [], "bch": [], "hc": [] },
+      { "name": "JeremyAnsel.ColorQuant.WuAlphaColorQuantizer", "rp": "JeremyAnsel.ColorQuant_WuAlphaColorQuantizer.htm", "cl": 334, "ucl": 7, "cal": 341, "tl": 749, "ct": "LineCoverage", "mc": "-", "cb": 84, "tb": 89, "lch": [], "bch": [], "hc": [] },
+      { "name": "JeremyAnsel.ColorQuant.WuColorQuantizer", "rp": "JeremyAnsel.ColorQuant_WuColorQuantizer.htm", "cl": 218, "ucl": 7, "cal": 225, "tl": 598, "ct": "LineCoverage", "mc": "-", "cb": 67, "tb": 72, "lch": [], "bch": [], "hc": [] },
     ]},
 ];
 
