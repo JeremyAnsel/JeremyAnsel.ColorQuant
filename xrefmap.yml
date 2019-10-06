@@ -1,0 +1,147 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: JeremyAnsel.ColorQuant
+  name: JeremyAnsel.ColorQuant
+  href: api/JeremyAnsel.ColorQuant.html
+  commentId: N:JeremyAnsel.ColorQuant
+  fullName: JeremyAnsel.ColorQuant
+  nameWithType: JeremyAnsel.ColorQuant
+- uid: JeremyAnsel.ColorQuant.ColorQuantizerResult
+  name: ColorQuantizerResult
+  href: api/JeremyAnsel.ColorQuant.ColorQuantizerResult.html
+  commentId: T:JeremyAnsel.ColorQuant.ColorQuantizerResult
+  fullName: JeremyAnsel.ColorQuant.ColorQuantizerResult
+  nameWithType: ColorQuantizerResult
+- uid: JeremyAnsel.ColorQuant.ColorQuantizerResult.#ctor(System.Int32,System.Int32)
+  name: ColorQuantizerResult(Int32, Int32)
+  href: api/JeremyAnsel.ColorQuant.ColorQuantizerResult.html#JeremyAnsel_ColorQuant_ColorQuantizerResult__ctor_System_Int32_System_Int32_
+  commentId: M:JeremyAnsel.ColorQuant.ColorQuantizerResult.#ctor(System.Int32,System.Int32)
+  fullName: JeremyAnsel.ColorQuant.ColorQuantizerResult.ColorQuantizerResult(System.Int32, System.Int32)
+  nameWithType: ColorQuantizerResult.ColorQuantizerResult(Int32, Int32)
+- uid: JeremyAnsel.ColorQuant.ColorQuantizerResult.#ctor*
+  name: ColorQuantizerResult
+  href: api/JeremyAnsel.ColorQuant.ColorQuantizerResult.html#JeremyAnsel_ColorQuant_ColorQuantizerResult__ctor_
+  commentId: Overload:JeremyAnsel.ColorQuant.ColorQuantizerResult.#ctor
+  isSpec: "True"
+  fullName: JeremyAnsel.ColorQuant.ColorQuantizerResult.ColorQuantizerResult
+  nameWithType: ColorQuantizerResult.ColorQuantizerResult
+- uid: JeremyAnsel.ColorQuant.ColorQuantizerResult.Bytes
+  name: Bytes
+  href: api/JeremyAnsel.ColorQuant.ColorQuantizerResult.html#JeremyAnsel_ColorQuant_ColorQuantizerResult_Bytes
+  commentId: P:JeremyAnsel.ColorQuant.ColorQuantizerResult.Bytes
+  fullName: JeremyAnsel.ColorQuant.ColorQuantizerResult.Bytes
+  nameWithType: ColorQuantizerResult.Bytes
+- uid: JeremyAnsel.ColorQuant.ColorQuantizerResult.Bytes*
+  name: Bytes
+  href: api/JeremyAnsel.ColorQuant.ColorQuantizerResult.html#JeremyAnsel_ColorQuant_ColorQuantizerResult_Bytes_
+  commentId: Overload:JeremyAnsel.ColorQuant.ColorQuantizerResult.Bytes
+  isSpec: "True"
+  fullName: JeremyAnsel.ColorQuant.ColorQuantizerResult.Bytes
+  nameWithType: ColorQuantizerResult.Bytes
+- uid: JeremyAnsel.ColorQuant.ColorQuantizerResult.Palette
+  name: Palette
+  href: api/JeremyAnsel.ColorQuant.ColorQuantizerResult.html#JeremyAnsel_ColorQuant_ColorQuantizerResult_Palette
+  commentId: P:JeremyAnsel.ColorQuant.ColorQuantizerResult.Palette
+  fullName: JeremyAnsel.ColorQuant.ColorQuantizerResult.Palette
+  nameWithType: ColorQuantizerResult.Palette
+- uid: JeremyAnsel.ColorQuant.ColorQuantizerResult.Palette*
+  name: Palette
+  href: api/JeremyAnsel.ColorQuant.ColorQuantizerResult.html#JeremyAnsel_ColorQuant_ColorQuantizerResult_Palette_
+  commentId: Overload:JeremyAnsel.ColorQuant.ColorQuantizerResult.Palette
+  isSpec: "True"
+  fullName: JeremyAnsel.ColorQuant.ColorQuantizerResult.Palette
+  nameWithType: ColorQuantizerResult.Palette
+- uid: JeremyAnsel.ColorQuant.IColorQuantizer
+  name: IColorQuantizer
+  href: api/JeremyAnsel.ColorQuant.IColorQuantizer.html
+  commentId: T:JeremyAnsel.ColorQuant.IColorQuantizer
+  fullName: JeremyAnsel.ColorQuant.IColorQuantizer
+  nameWithType: IColorQuantizer
+- uid: JeremyAnsel.ColorQuant.IColorQuantizer.Quantize(System.Byte[])
+  name: Quantize(Byte[])
+  href: api/JeremyAnsel.ColorQuant.IColorQuantizer.html#JeremyAnsel_ColorQuant_IColorQuantizer_Quantize_System_Byte___
+  commentId: M:JeremyAnsel.ColorQuant.IColorQuantizer.Quantize(System.Byte[])
+  name.vb: Quantize(Byte())
+  fullName: JeremyAnsel.ColorQuant.IColorQuantizer.Quantize(System.Byte[])
+  fullName.vb: JeremyAnsel.ColorQuant.IColorQuantizer.Quantize(System.Byte())
+  nameWithType: IColorQuantizer.Quantize(Byte[])
+  nameWithType.vb: IColorQuantizer.Quantize(Byte())
+- uid: JeremyAnsel.ColorQuant.IColorQuantizer.Quantize(System.Byte[],System.Int32)
+  name: Quantize(Byte[], Int32)
+  href: api/JeremyAnsel.ColorQuant.IColorQuantizer.html#JeremyAnsel_ColorQuant_IColorQuantizer_Quantize_System_Byte___System_Int32_
+  commentId: M:JeremyAnsel.ColorQuant.IColorQuantizer.Quantize(System.Byte[],System.Int32)
+  name.vb: Quantize(Byte(), Int32)
+  fullName: JeremyAnsel.ColorQuant.IColorQuantizer.Quantize(System.Byte[], System.Int32)
+  fullName.vb: JeremyAnsel.ColorQuant.IColorQuantizer.Quantize(System.Byte(), System.Int32)
+  nameWithType: IColorQuantizer.Quantize(Byte[], Int32)
+  nameWithType.vb: IColorQuantizer.Quantize(Byte(), Int32)
+- uid: JeremyAnsel.ColorQuant.IColorQuantizer.Quantize*
+  name: Quantize
+  href: api/JeremyAnsel.ColorQuant.IColorQuantizer.html#JeremyAnsel_ColorQuant_IColorQuantizer_Quantize_
+  commentId: Overload:JeremyAnsel.ColorQuant.IColorQuantizer.Quantize
+  isSpec: "True"
+  fullName: JeremyAnsel.ColorQuant.IColorQuantizer.Quantize
+  nameWithType: IColorQuantizer.Quantize
+- uid: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer
+  name: WuAlphaColorQuantizer
+  href: api/JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.html
+  commentId: T:JeremyAnsel.ColorQuant.WuAlphaColorQuantizer
+  fullName: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer
+  nameWithType: WuAlphaColorQuantizer
+- uid: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize(System.Byte[])
+  name: Quantize(Byte[])
+  href: api/JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.html#JeremyAnsel_ColorQuant_WuAlphaColorQuantizer_Quantize_System_Byte___
+  commentId: M:JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize(System.Byte[])
+  name.vb: Quantize(Byte())
+  fullName: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize(System.Byte[])
+  fullName.vb: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize(System.Byte())
+  nameWithType: WuAlphaColorQuantizer.Quantize(Byte[])
+  nameWithType.vb: WuAlphaColorQuantizer.Quantize(Byte())
+- uid: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize(System.Byte[],System.Int32)
+  name: Quantize(Byte[], Int32)
+  href: api/JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.html#JeremyAnsel_ColorQuant_WuAlphaColorQuantizer_Quantize_System_Byte___System_Int32_
+  commentId: M:JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize(System.Byte[],System.Int32)
+  name.vb: Quantize(Byte(), Int32)
+  fullName: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize(System.Byte[], System.Int32)
+  fullName.vb: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize(System.Byte(), System.Int32)
+  nameWithType: WuAlphaColorQuantizer.Quantize(Byte[], Int32)
+  nameWithType.vb: WuAlphaColorQuantizer.Quantize(Byte(), Int32)
+- uid: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize*
+  name: Quantize
+  href: api/JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.html#JeremyAnsel_ColorQuant_WuAlphaColorQuantizer_Quantize_
+  commentId: Overload:JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize
+  isSpec: "True"
+  fullName: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize
+  nameWithType: WuAlphaColorQuantizer.Quantize
+- uid: JeremyAnsel.ColorQuant.WuColorQuantizer
+  name: WuColorQuantizer
+  href: api/JeremyAnsel.ColorQuant.WuColorQuantizer.html
+  commentId: T:JeremyAnsel.ColorQuant.WuColorQuantizer
+  fullName: JeremyAnsel.ColorQuant.WuColorQuantizer
+  nameWithType: WuColorQuantizer
+- uid: JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize(System.Byte[])
+  name: Quantize(Byte[])
+  href: api/JeremyAnsel.ColorQuant.WuColorQuantizer.html#JeremyAnsel_ColorQuant_WuColorQuantizer_Quantize_System_Byte___
+  commentId: M:JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize(System.Byte[])
+  name.vb: Quantize(Byte())
+  fullName: JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize(System.Byte[])
+  fullName.vb: JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize(System.Byte())
+  nameWithType: WuColorQuantizer.Quantize(Byte[])
+  nameWithType.vb: WuColorQuantizer.Quantize(Byte())
+- uid: JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize(System.Byte[],System.Int32)
+  name: Quantize(Byte[], Int32)
+  href: api/JeremyAnsel.ColorQuant.WuColorQuantizer.html#JeremyAnsel_ColorQuant_WuColorQuantizer_Quantize_System_Byte___System_Int32_
+  commentId: M:JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize(System.Byte[],System.Int32)
+  name.vb: Quantize(Byte(), Int32)
+  fullName: JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize(System.Byte[], System.Int32)
+  fullName.vb: JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize(System.Byte(), System.Int32)
+  nameWithType: WuColorQuantizer.Quantize(Byte[], Int32)
+  nameWithType.vb: WuColorQuantizer.Quantize(Byte(), Int32)
+- uid: JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize*
+  name: Quantize
+  href: api/JeremyAnsel.ColorQuant.WuColorQuantizer.html#JeremyAnsel_ColorQuant_WuColorQuantizer_Quantize_
+  commentId: Overload:JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize
+  isSpec: "True"
+  fullName: JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize
+  nameWithType: WuColorQuantizer.Quantize
