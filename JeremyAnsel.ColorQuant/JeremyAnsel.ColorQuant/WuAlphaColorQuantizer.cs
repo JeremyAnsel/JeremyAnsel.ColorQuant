@@ -110,12 +110,12 @@ namespace JeremyAnsel.ColorQuant
         {
             if (image == null)
             {
-                throw new ArgumentNullException("image");
+                throw new ArgumentNullException(nameof(image));
             }
 
             if (colorCount < 1 || colorCount > 256)
             {
-                throw new ArgumentOutOfRangeException("colorCount");
+                throw new ArgumentOutOfRangeException(nameof(colorCount));
             }
 
             this.Clear();
@@ -231,7 +231,7 @@ namespace JeremyAnsel.ColorQuant
                         + moment[WuAlphaColorQuantizer.GetIndex(cube.R0, cube.G0, cube.B0, cube.A0)];
 
                 default:
-                    throw new ArgumentOutOfRangeException("direction");
+                    throw new ArgumentOutOfRangeException(nameof(direction));
             }
         }
 
@@ -292,7 +292,7 @@ namespace JeremyAnsel.ColorQuant
                         - moment[WuAlphaColorQuantizer.GetIndex(cube.R0, cube.G0, cube.B0, position)];
 
                 default:
-                    throw new ArgumentOutOfRangeException("direction");
+                    throw new ArgumentOutOfRangeException(nameof(direction));
             }
         }
 

@@ -24,12 +24,12 @@ namespace JeremyAnsel.ColorQuant
         {
             if (size < 1)
             {
-                throw new ArgumentOutOfRangeException("size");
+                throw new ArgumentOutOfRangeException(nameof(size));
             }
 
             if (colorCount < 1 || colorCount > 256)
             {
-                throw new ArgumentOutOfRangeException("colorCount");
+                throw new ArgumentOutOfRangeException(nameof(colorCount));
             }
 
             this.Palette = new byte[colorCount * 4];

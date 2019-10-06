@@ -54,7 +54,7 @@ namespace JeremyAnsel.ColorQuant.Tests
             var result = this.quantizer.Quantize(image);
 
             Assert.Equal(4, result.Palette.Length);
-            Assert.Equal(1, result.Bytes.Length);
+            Assert.Single(result.Bytes);
 
             Assert.Equal(new byte[] { 0, 0, 0, 255 }, result.Palette);
             Assert.Equal(new byte[] { 0 }, result.Bytes);
@@ -71,7 +71,7 @@ namespace JeremyAnsel.ColorQuant.Tests
             var result = this.quantizer.Quantize(image);
 
             Assert.Equal(4, result.Palette.Length);
-            Assert.Equal(1, result.Bytes.Length);
+            Assert.Single(result.Bytes);
             Assert.Equal(new byte[] { 0, 0, 0, 0 }, result.Palette);
             Assert.Equal(new byte[] { 0 }, result.Bytes);
         }

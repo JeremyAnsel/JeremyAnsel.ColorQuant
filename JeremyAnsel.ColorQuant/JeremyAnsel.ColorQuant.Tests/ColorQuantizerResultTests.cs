@@ -34,7 +34,7 @@ namespace JeremyAnsel.ColorQuant.Tests
         {
             var result = new ColorQuantizerResult(1, 1);
 
-            Assert.Equal(1, result.Bytes.Length);
+            Assert.Single(result.Bytes);
             Assert.Equal(4, result.Palette.Length);
         }
     }
