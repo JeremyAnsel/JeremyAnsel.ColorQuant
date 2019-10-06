@@ -2,9 +2,9 @@
 <CoverageSession>
   <Summary numSequencePoints="585" visitedSequencePoints="571" numBranchPoints="167" visitedBranchPoints="157" sequenceCoverage="97.6" branchCoverage="94.01" maxCyclomaticComplexity="190" minCyclomaticComplexity="190" visitedClasses="4" numClasses="4" visitedMethods="44" numMethods="44" />
   <Modules>
-    <Module hash="5E14B77F-CF17-4854-B98E-04C4E8C7BF6C">
+    <Module hash="260E9A58-66E7-4193-8750-578488414F37">
       <ModulePath>JeremyAnsel.ColorQuant.dll</ModulePath>
-      <ModuleTime>2019-10-06T05:00:19</ModuleTime>
+      <ModuleTime>2019-10-06T06:58:42</ModuleTime>
       <ModuleName>JeremyAnsel.ColorQuant</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\projects\jeremyansel-colorquant\JeremyAnsel.ColorQuant\JeremyAnsel.ColorQuant\Box.cs" />
