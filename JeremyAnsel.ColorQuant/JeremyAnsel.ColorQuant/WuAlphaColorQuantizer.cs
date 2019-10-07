@@ -38,7 +38,7 @@ namespace JeremyAnsel.ColorQuant
         /// <summary>
         /// The index alpha bits.
         /// </summary>
-        private const int IndexAlphaBits = 3;
+        private const int IndexAlphaBits = 4;
 
         /// <summary>
         /// The index count.

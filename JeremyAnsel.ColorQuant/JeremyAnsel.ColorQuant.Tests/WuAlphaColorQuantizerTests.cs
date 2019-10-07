@@ -289,7 +289,7 @@ namespace JeremyAnsel.ColorQuant.Tests
 
             for (int i = 0; i < 256; i++)
             {
-                byte c = (byte)((i & ~31) + 15);
+                byte c = (byte)((i & ~15) + 7);
                 expectedImage[i * 4] = 0;
                 expectedImage[(i * 4) + 1] = 0;
                 expectedImage[(i * 4) + 2] = 0;
@@ -298,7 +298,7 @@ namespace JeremyAnsel.ColorQuant.Tests
 
             var result = this.quantizer.Quantize(image);
 
-            Assert.Equal(4 * 8, result.Palette.Length);
+            Assert.Equal(4 * 16, result.Palette.Length);
             Assert.Equal(256, result.Bytes.Length);
 
             byte[] resultImage = new byte[4 * 256];
