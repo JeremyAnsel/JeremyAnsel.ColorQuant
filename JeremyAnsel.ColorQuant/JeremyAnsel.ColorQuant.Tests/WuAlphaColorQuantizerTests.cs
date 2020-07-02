@@ -18,7 +18,7 @@ namespace JeremyAnsel.ColorQuant.Tests
         /// <summary>
         /// The alpha color quantizer.
         /// </summary>
-        private WuAlphaColorQuantizer quantizer;
+        private readonly WuAlphaColorQuantizer quantizer;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="WuAlphaColorQuantizerTests"/> class.
