@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.ColorQuant.ColorQuantizerResult.html",
-          "hash": "BTwF7GxGB5sC+OeXCfC/Mg=="
+          "hash": "zJi3r9U9yGBMpN2T5ciywR/9rXmB20ieDBN2evHd9yk="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.ColorQuant.IColorQuantizer.html",
-          "hash": "4aTA0DB3r2tntZL3iDp7OQ=="
+          "hash": "XTAp7fDnc0tdk+IsQaie5mHFl9HKHeVOBXK1Tokj2AA="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.html",
-          "hash": "ZAmhiimA7cMdWX9ElL2W+Q=="
+          "hash": "BIJNKrh4F7YCJOJlauPzSvx+N9eKL943idC41sTAfM4="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.ColorQuant.WuColorQuantizer.html",
-          "hash": "ClqzlHXkjBVNklEqdbfyaw=="
+          "hash": "a+AyVhmOgrCReI0ZKxT8Wg9lc38/dKagxPw8tnj9Vo8="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.ColorQuant.html",
-          "hash": "zVxcNS1NoldArhQVMRqirQ=="
+          "hash": "BZtL4NQtcPDQModl8laxYMC8kLcQ0rtk6/aGooCQ0K4="
         }
       },
       "is_incremental": false,
@@ -78,19 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "HRGYiAu1Bc0SYmgOfkQPBw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "rgufBZeuESKJxk15l2VmcA=="
+          "hash": "vJn1IdYJ/x5zY1CtuMsWAnQjNiK/AFJdv87CxF0hXQw="
         }
       },
       "is_incremental": false,
@@ -102,19 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "eoZ8D1xD3ppp9L81IymTnw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "toc.html",
-          "hash": "JZyFI0mtHjndPjo32ROwdA=="
+          "hash": "2oz9ncI2ruAaVI7042aFMirtx0ywC0MEflQAD8eSod8="
         }
       },
       "is_incremental": false,
