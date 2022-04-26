@@ -44,7 +44,7 @@ deploy:
     DEPLOY: True
 
 after_deploy:
-- if "%DEPLOY%" == "True" git clone -q --branch=gh-pages --depth 5 git://github.com/JeremyAnsel/JeremyAnsel.ColorQuant.git gh-pages
+- if "%DEPLOY%" == "True" git clone -q --branch=gh-pages --depth 5 https://github.com/JeremyAnsel/JeremyAnsel.ColorQuant.git gh-pages
 - if "%DEPLOY%" == "True" cd gh-pages
 - if "%DEPLOY%" == "True" git checkout -qf gh-pages
 - if "%DEPLOY%" == "True" git config core.safecrlf false
