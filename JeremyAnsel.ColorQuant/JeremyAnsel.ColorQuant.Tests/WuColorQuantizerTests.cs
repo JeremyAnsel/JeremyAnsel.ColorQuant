@@ -37,8 +37,8 @@ namespace JeremyAnsel.ColorQuant.Tests
         {
             var image = new byte[0];
 
-            Assert.Throws<ArgumentNullException>("image", () => this.quantizer.Quantize(null));
-            Assert.Throws<ArgumentNullException>("image", () => this.quantizer.Quantize(null, 1));
+            Assert.Throws<ArgumentNullException>("image", () => this.quantizer.Quantize(null!));
+            Assert.Throws<ArgumentNullException>("image", () => this.quantizer.Quantize(null!, 1));
             Assert.Throws<ArgumentOutOfRangeException>("colorCount", () => this.quantizer.Quantize(image, 0));
             Assert.Throws<ArgumentOutOfRangeException>("colorCount", () => this.quantizer.Quantize(image, 257));
         }

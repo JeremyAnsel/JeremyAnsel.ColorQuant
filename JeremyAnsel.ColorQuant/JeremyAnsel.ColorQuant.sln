@@ -1,16 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29326.143
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JeremyAnsel.ColorQuant", "JeremyAnsel.ColorQuant\JeremyAnsel.ColorQuant.csproj", "{0E60103B-8CCD-4BB4-959A-01D7F38CAD0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JeremyAnsel.ColorQuant", "JeremyAnsel.ColorQuant\JeremyAnsel.ColorQuant.csproj", "{107C5B5B-7563-4198-AA0F-1295C0D6422C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JeremyAnsel.ColorQuant.Tests", "JeremyAnsel.ColorQuant.Tests\JeremyAnsel.ColorQuant.Tests.csproj", "{CE222C51-8267-4CED-8649-2D0FB292AA3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JeremyAnsel.ColorQuant.Tests", "JeremyAnsel.ColorQuant.Tests\JeremyAnsel.ColorQuant.Tests.csproj", "{7EC88055-3C94-4878-8452-166155F092F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Documentation", "Documentation\Documentation.csproj", "{C7B74028-8B6A-455F-8D75-F31E50566371}"
-	ProjectSection(ProjectDependencies) = postProject
-		{0E60103B-8CCD-4BB4-959A-01D7F38CAD0C} = {0E60103B-8CCD-4BB4-959A-01D7F38CAD0C}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Documentation", "Documentation\Documentation.csproj", "{3D2DD72D-E257-46AE-9AF8-117D49085865}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,23 +15,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0E60103B-8CCD-4BB4-959A-01D7F38CAD0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E60103B-8CCD-4BB4-959A-01D7F38CAD0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E60103B-8CCD-4BB4-959A-01D7F38CAD0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E60103B-8CCD-4BB4-959A-01D7F38CAD0C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CE222C51-8267-4CED-8649-2D0FB292AA3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE222C51-8267-4CED-8649-2D0FB292AA3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE222C51-8267-4CED-8649-2D0FB292AA3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE222C51-8267-4CED-8649-2D0FB292AA3F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C7B74028-8B6A-455F-8D75-F31E50566371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C7B74028-8B6A-455F-8D75-F31E50566371}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C7B74028-8B6A-455F-8D75-F31E50566371}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C7B74028-8B6A-455F-8D75-F31E50566371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{107C5B5B-7563-4198-AA0F-1295C0D6422C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{107C5B5B-7563-4198-AA0F-1295C0D6422C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{107C5B5B-7563-4198-AA0F-1295C0D6422C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{107C5B5B-7563-4198-AA0F-1295C0D6422C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC88055-3C94-4878-8452-166155F092F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC88055-3C94-4878-8452-166155F092F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC88055-3C94-4878-8452-166155F092F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC88055-3C94-4878-8452-166155F092F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2DD72D-E257-46AE-9AF8-117D49085865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2DD72D-E257-46AE-9AF8-117D49085865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2DD72D-E257-46AE-9AF8-117D49085865}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F058B940-64B5-4CA6-969B-E01C043BD361}
+		SolutionGuid = {C78A2900-1C50-4225-8923-7B91A8B898A3}
 	EndGlobalSection
 EndGlobal
