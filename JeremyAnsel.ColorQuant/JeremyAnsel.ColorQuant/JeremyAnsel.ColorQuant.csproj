@@ -11,6 +11,7 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <ContinuousIntegrationBuild Condition="'$(CI)' == 'True'">true</ContinuousIntegrationBuild>
     <Version>3.0.0</Version>
     <Description>ColorQuant is a .Net color quantizer based on Xiaolin Wu's Color Quantizer. For a given 32-bit RGB or ARGB image, it will produce a 8-bit palletized image.</Description>
     <Authors>Jérémy Ansel</Authors>
