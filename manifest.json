@@ -9,8 +9,7 @@
         "resource": {
           "relative_path": "index.json"
         }
-      },
-      "is_incremental": false
+      }
     },
     {
       "type": "ManagedReference",
@@ -18,10 +17,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.ColorQuant.ColorQuantizerResult.html",
-          "hash": "zJi3r9U9yGBMpN2T5ciywR/9rXmB20ieDBN2evHd9yk="
+          "hash": "RXfgeU+9caWpXbYFxKGB39XnkJCSqMQuNgRac973Xck="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -30,10 +28,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.ColorQuant.IColorQuantizer.html",
-          "hash": "XTAp7fDnc0tdk+IsQaie5mHFl9HKHeVOBXK1Tokj2AA="
+          "hash": "8m+3hH4DjB8bFVwYMoVMyxQQjPxOQU6F44u13NuRExA="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -42,10 +39,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.html",
-          "hash": "BIJNKrh4F7YCJOJlauPzSvx+N9eKL943idC41sTAfM4="
+          "hash": "/1bZPcGPie55wUmWFfcm6B/k3izArOj4pO8rp12QAuI="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -54,10 +50,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.ColorQuant.WuColorQuantizer.html",
-          "hash": "a+AyVhmOgrCReI0ZKxT8Wg9lc38/dKagxPw8tnj9Vo8="
+          "hash": "iR+2mmN7hqIms0B0aT7GE0957xrZxL1IrCoxhc8fqG0="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -66,10 +61,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.ColorQuant.html",
-          "hash": "BZtL4NQtcPDQModl8laxYMC8kLcQ0rtk6/aGooCQ0K4="
+          "hash": "PpvWdfJx/UJji3bWaRHLjV0FxOiY1rnPboJJN4Ykcro="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -78,10 +72,9 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "vJn1IdYJ/x5zY1CtuMsWAnQjNiK/AFJdv87CxF0hXQw="
+          "hash": "E49xH9/L4kQk9nNmXIGRcHHbYpsJENvddFPNBmO8x8g="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -90,54 +83,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "2oz9ncI2ruAaVI7042aFMirtx0ywC0MEflQAD8eSod8="
+          "hash": "9JmvB5ZM3ZnJ60HT4Ipzod4cg88R6qAca3R1znsLVn8="
         }
       },
-      "is_incremental": false,
       "version": ""
-    }
-  ],
-  "incremental_info": [
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
-        "incrementalPhase": "build",
-        "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
-      },
-      "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 2,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 5,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        }
-      }
-    },
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
-        "incrementalPhase": "postProcessing",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {}
     }
   ],
   "version_info": {},
