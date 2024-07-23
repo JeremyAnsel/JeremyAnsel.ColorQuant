@@ -18,6 +18,7 @@
     <Company>Jérémy Ansel</Company>
     <Copyright>Copyright © 1992 Xiaolin Wu, 2014-2022 Jérémy Ansel</Copyright>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>Image Compression Quantization</PackageTags>
     <PackageProjectUrl>https://github.com/JeremyAnsel/JeremyAnsel.ColorQuant</PackageProjectUrl>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
@@ -29,6 +30,10 @@
   
   <ItemGroup>
     <None Include="..\..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>

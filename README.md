@@ -20,3 +20,19 @@ Build           | https://ci.appveyor.com/project/JeremyAnsel/jeremyansel-colorq
 C Implementation of Xiaolin Wu's Color Quantizer (v. 2) (see Graphics Gems volume II, pages 126-133) : http://www.ece.mcmaster.ca/~xwu/cq.c.
 
 > Algorithm: Greedy orthogonal bipartition of RGB space for variance minimization aided by inclusion-exclusion tricks. For speed no nearest neighbor search is done. Slightly better performance can be expected by more sophisticated but more expensive versions.
+
+# Usage
+
+For image with RGB data:
+```csharp
+var quantizer = new WuColorQuantizer();
+ColorQuantizerResult result = quantizer.Quantize(image, colorCount);
+```
+
+For image with ARGB data:
+```csharp
+var quantizer = new WuAlphaColorQuantizer();
+ColorQuantizerResult result = quantizer.Quantize(image, colorCount);
+```
+
+`ColorQuantizerResult` contains a palette and the result bytes.
