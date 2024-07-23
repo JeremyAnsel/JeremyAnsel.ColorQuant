@@ -1,7 +1,7 @@
 # JeremyAnsel.ColorQuant
 
 [![Build status](https://ci.appveyor.com/api/projects/status/u39upbktebxs5hwn/branch/master?svg=true)](https://ci.appveyor.com/project/JeremyAnsel/jeremyansel-colorquant/branch/master)
-[![Code coverage](https://jeremyansel.github.io/JeremyAnsel.ColorQuant/coverage/badge_combined.svg)](https://jeremyansel.github.io/JeremyAnsel.ColorQuant/coverage/)
+[![Code coverage](https://raw.githubusercontent.com/JeremyAnsel/JeremyAnsel.ColorQuant/gh-pages/coverage/badge_combined.svg)](https://jeremyansel.github.io/JeremyAnsel.ColorQuant/coverage/)
 [![NuGet Version](https://buildstats.info/nuget/JeremyAnsel.ColorQuant)](https://www.nuget.org/packages/JeremyAnsel.ColorQuant)
 ![License](https://img.shields.io/github/license/JeremyAnsel/JeremyAnsel.ColorQuant)
 
