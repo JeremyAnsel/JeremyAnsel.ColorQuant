@@ -1,5 +1,4 @@
 {
-  "homepages": [],
   "source_base_path": "C:/projects/jeremyansel-colorquant/JeremyAnsel.ColorQuant/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -16,8 +15,7 @@
       "source_relative_path": "api/JeremyAnsel.ColorQuant.ColorQuantizerResult.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.ColorQuant.ColorQuantizerResult.html",
-          "hash": "RXfgeU+9caWpXbYFxKGB39XnkJCSqMQuNgRac973Xck="
+          "relative_path": "api/JeremyAnsel.ColorQuant.ColorQuantizerResult.html"
         }
       },
       "version": ""
@@ -27,8 +25,7 @@
       "source_relative_path": "api/JeremyAnsel.ColorQuant.IColorQuantizer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.ColorQuant.IColorQuantizer.html",
-          "hash": "8m+3hH4DjB8bFVwYMoVMyxQQjPxOQU6F44u13NuRExA="
+          "relative_path": "api/JeremyAnsel.ColorQuant.IColorQuantizer.html"
         }
       },
       "version": ""
@@ -38,8 +35,7 @@
       "source_relative_path": "api/JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.html",
-          "hash": "/1bZPcGPie55wUmWFfcm6B/k3izArOj4pO8rp12QAuI="
+          "relative_path": "api/JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.html"
         }
       },
       "version": ""
@@ -49,8 +45,7 @@
       "source_relative_path": "api/JeremyAnsel.ColorQuant.WuColorQuantizer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.ColorQuant.WuColorQuantizer.html",
-          "hash": "iR+2mmN7hqIms0B0aT7GE0957xrZxL1IrCoxhc8fqG0="
+          "relative_path": "api/JeremyAnsel.ColorQuant.WuColorQuantizer.html"
         }
       },
       "version": ""
@@ -60,8 +55,7 @@
       "source_relative_path": "api/JeremyAnsel.ColorQuant.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.ColorQuant.html",
-          "hash": "PpvWdfJx/UJji3bWaRHLjV0FxOiY1rnPboJJN4Ykcro="
+          "relative_path": "api/JeremyAnsel.ColorQuant.html"
         }
       },
       "version": ""
@@ -71,8 +65,17 @@
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "E49xH9/L4kQk9nNmXIGRcHHbYpsJENvddFPNBmO8x8g="
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -82,14 +85,22 @@
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "9JmvB5ZM3ZnJ60HT4Ipzod4cg88R6qAca3R1znsLVn8="
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""
     }
   ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"

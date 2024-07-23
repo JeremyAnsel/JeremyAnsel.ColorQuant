@@ -64,15 +64,6 @@ references:
   commentId: T:JeremyAnsel.ColorQuant.IColorQuantizer
   fullName: JeremyAnsel.ColorQuant.IColorQuantizer
   nameWithType: IColorQuantizer
-- uid: JeremyAnsel.ColorQuant.IColorQuantizer.Quantize(System.Byte[],System.Int32)
-  name: Quantize(byte[], int)
-  href: api/JeremyAnsel.ColorQuant.IColorQuantizer.html#JeremyAnsel_ColorQuant_IColorQuantizer_Quantize_System_Byte___System_Int32_
-  commentId: M:JeremyAnsel.ColorQuant.IColorQuantizer.Quantize(System.Byte[],System.Int32)
-  name.vb: Quantize(Byte(), Integer)
-  fullName: JeremyAnsel.ColorQuant.IColorQuantizer.Quantize(byte[], int)
-  fullName.vb: JeremyAnsel.ColorQuant.IColorQuantizer.Quantize(Byte(), Integer)
-  nameWithType: IColorQuantizer.Quantize(byte[], int)
-  nameWithType.vb: IColorQuantizer.Quantize(Byte(), Integer)
 - uid: JeremyAnsel.ColorQuant.IColorQuantizer.Quantize(System.Byte[])
   name: Quantize(byte[])
   href: api/JeremyAnsel.ColorQuant.IColorQuantizer.html#JeremyAnsel_ColorQuant_IColorQuantizer_Quantize_System_Byte___
@@ -82,6 +73,15 @@ references:
   fullName.vb: JeremyAnsel.ColorQuant.IColorQuantizer.Quantize(Byte())
   nameWithType: IColorQuantizer.Quantize(byte[])
   nameWithType.vb: IColorQuantizer.Quantize(Byte())
+- uid: JeremyAnsel.ColorQuant.IColorQuantizer.Quantize(System.Byte[],System.Int32)
+  name: Quantize(byte[], int)
+  href: api/JeremyAnsel.ColorQuant.IColorQuantizer.html#JeremyAnsel_ColorQuant_IColorQuantizer_Quantize_System_Byte___System_Int32_
+  commentId: M:JeremyAnsel.ColorQuant.IColorQuantizer.Quantize(System.Byte[],System.Int32)
+  name.vb: Quantize(Byte(), Integer)
+  fullName: JeremyAnsel.ColorQuant.IColorQuantizer.Quantize(byte[], int)
+  fullName.vb: JeremyAnsel.ColorQuant.IColorQuantizer.Quantize(Byte(), Integer)
+  nameWithType: IColorQuantizer.Quantize(byte[], int)
+  nameWithType.vb: IColorQuantizer.Quantize(Byte(), Integer)
 - uid: JeremyAnsel.ColorQuant.IColorQuantizer.Quantize*
   name: Quantize
   href: api/JeremyAnsel.ColorQuant.IColorQuantizer.html#JeremyAnsel_ColorQuant_IColorQuantizer_Quantize_
@@ -95,15 +95,6 @@ references:
   commentId: T:JeremyAnsel.ColorQuant.WuAlphaColorQuantizer
   fullName: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer
   nameWithType: WuAlphaColorQuantizer
-- uid: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize(System.Byte[],System.Int32)
-  name: Quantize(byte[], int)
-  href: api/JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.html#JeremyAnsel_ColorQuant_WuAlphaColorQuantizer_Quantize_System_Byte___System_Int32_
-  commentId: M:JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize(System.Byte[],System.Int32)
-  name.vb: Quantize(Byte(), Integer)
-  fullName: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize(byte[], int)
-  fullName.vb: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize(Byte(), Integer)
-  nameWithType: WuAlphaColorQuantizer.Quantize(byte[], int)
-  nameWithType.vb: WuAlphaColorQuantizer.Quantize(Byte(), Integer)
 - uid: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize(System.Byte[])
   name: Quantize(byte[])
   href: api/JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.html#JeremyAnsel_ColorQuant_WuAlphaColorQuantizer_Quantize_System_Byte___
@@ -113,6 +104,15 @@ references:
   fullName.vb: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize(Byte())
   nameWithType: WuAlphaColorQuantizer.Quantize(byte[])
   nameWithType.vb: WuAlphaColorQuantizer.Quantize(Byte())
+- uid: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize(System.Byte[],System.Int32)
+  name: Quantize(byte[], int)
+  href: api/JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.html#JeremyAnsel_ColorQuant_WuAlphaColorQuantizer_Quantize_System_Byte___System_Int32_
+  commentId: M:JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize(System.Byte[],System.Int32)
+  name.vb: Quantize(Byte(), Integer)
+  fullName: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize(byte[], int)
+  fullName.vb: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize(Byte(), Integer)
+  nameWithType: WuAlphaColorQuantizer.Quantize(byte[], int)
+  nameWithType.vb: WuAlphaColorQuantizer.Quantize(Byte(), Integer)
 - uid: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize*
   name: Quantize
   href: api/JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.html#JeremyAnsel_ColorQuant_WuAlphaColorQuantizer_Quantize_
@@ -126,15 +126,6 @@ references:
   commentId: T:JeremyAnsel.ColorQuant.WuColorQuantizer
   fullName: JeremyAnsel.ColorQuant.WuColorQuantizer
   nameWithType: WuColorQuantizer
-- uid: JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize(System.Byte[],System.Int32)
-  name: Quantize(byte[], int)
-  href: api/JeremyAnsel.ColorQuant.WuColorQuantizer.html#JeremyAnsel_ColorQuant_WuColorQuantizer_Quantize_System_Byte___System_Int32_
-  commentId: M:JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize(System.Byte[],System.Int32)
-  name.vb: Quantize(Byte(), Integer)
-  fullName: JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize(byte[], int)
-  fullName.vb: JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize(Byte(), Integer)
-  nameWithType: WuColorQuantizer.Quantize(byte[], int)
-  nameWithType.vb: WuColorQuantizer.Quantize(Byte(), Integer)
 - uid: JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize(System.Byte[])
   name: Quantize(byte[])
   href: api/JeremyAnsel.ColorQuant.WuColorQuantizer.html#JeremyAnsel_ColorQuant_WuColorQuantizer_Quantize_System_Byte___
@@ -144,6 +135,15 @@ references:
   fullName.vb: JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize(Byte())
   nameWithType: WuColorQuantizer.Quantize(byte[])
   nameWithType.vb: WuColorQuantizer.Quantize(Byte())
+- uid: JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize(System.Byte[],System.Int32)
+  name: Quantize(byte[], int)
+  href: api/JeremyAnsel.ColorQuant.WuColorQuantizer.html#JeremyAnsel_ColorQuant_WuColorQuantizer_Quantize_System_Byte___System_Int32_
+  commentId: M:JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize(System.Byte[],System.Int32)
+  name.vb: Quantize(Byte(), Integer)
+  fullName: JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize(byte[], int)
+  fullName.vb: JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize(Byte(), Integer)
+  nameWithType: WuColorQuantizer.Quantize(byte[], int)
+  nameWithType.vb: WuColorQuantizer.Quantize(Byte(), Integer)
 - uid: JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize*
   name: Quantize
   href: api/JeremyAnsel.ColorQuant.WuColorQuantizer.html#JeremyAnsel_ColorQuant_WuColorQuantizer_Quantize_
