@@ -1,15 +1,16 @@
-﻿// <copyright file="WuColorQuantizer.cs" company="Jérémy Ansel">
+﻿// <copyright file="WuColorQuantizer2.cs" company="Jérémy Ansel">
 // Copyright (c) 2014-2019 Jérémy Ansel
 // </copyright>
 // <license>
 // Licensed under the MIT license. See LICENSE.txt
 // </license>
 
-#if !NET8_0_OR_GREATER
+#if NET8_0_OR_GREATER
 namespace JeremyAnsel.ColorQuant
 {
     using System;
     using System.Diagnostics.CodeAnalysis;
+    using System.Runtime.Intrinsics;
 
     /// <summary>
     /// A Wu's color quantizer.
@@ -51,25 +52,7 @@ namespace JeremyAnsel.ColorQuant
         /// </summary>
         private const int TableLength = IndexCount * IndexCount * IndexCount;
 
-        /// <summary>
-        /// Moment of <c>P(c)</c>.
-        /// </summary>
-        private readonly long[] vwt = new long[TableLength];
-
-        /// <summary>
-        /// Moment of <c>r*P(c)</c>.
-        /// </summary>
-        private readonly long[] vmr = new long[TableLength];
-
-        /// <summary>
-        /// Moment of <c>g*P(c)</c>.
-        /// </summary>
-        private readonly long[] vmg = new long[TableLength];
-
-        /// <summary>
-        /// Moment of <c>b*P(c)</c>.
-        /// </summary>
-        private readonly long[] vmb = new long[TableLength];
+        private readonly Vector256<long>[] vm = new Vector256<long>[TableLength];
 
         /// <summary>
         /// Moment of <c>c^2*P(c)</c>.
@@ -138,7 +121,7 @@ namespace JeremyAnsel.ColorQuant
         /// <param name="cube">The cube.</param>
         /// <param name="moment">The moment.</param>
         /// <returns>The result.</returns>
-        private static double Volume(Box cube, long[] moment)
+        private static Vector256<long> Volume(Box cube, Vector256<long>[] moment)
         {
             return moment[cube.Index111]
                - moment[cube.Index110]
@@ -157,7 +140,7 @@ namespace JeremyAnsel.ColorQuant
         /// <param name="direction">The direction.</param>
         /// <param name="moment">The moment.</param>
         /// <returns>The result.</returns>
-        private static long Bottom(Box cube, int direction, long[] moment)
+        private static Vector256<long> Bottom(Box cube, int direction, Vector256<long>[] moment)
         {
             switch (direction)
             {
@@ -195,7 +178,7 @@ namespace JeremyAnsel.ColorQuant
         /// <param name="position">The position.</param>
         /// <param name="moment">The moment.</param>
         /// <returns>The result.</returns>
-        private static long Top(Box cube, int direction, int position, long[] moment)
+        private static Vector256<long> Top(Box cube, int direction, int position, Vector256<long>[] moment)
         {
             switch (direction)
             {
@@ -230,10 +213,7 @@ namespace JeremyAnsel.ColorQuant
         /// </summary>
         private void Clear()
         {
-            this.vwt.AsSpan().Clear();
-            this.vmr.AsSpan().Clear();
-            this.vmg.AsSpan().Clear();
-            this.vmb.AsSpan().Clear();
+            this.vm.AsSpan().Clear();
             this.m2.AsSpan().Clear();
             this.tag.AsSpan().Clear();
         }
@@ -256,10 +236,7 @@ namespace JeremyAnsel.ColorQuant
 
                 int ind = GetIndex(inr + 1, ing + 1, inb + 1);
 
-                this.vwt[ind]++;
-                this.vmr[ind] += r;
-                this.vmg[ind] += g;
-                this.vmb[ind] += b;
+                this.vm[ind] += Vector256.Create(r, g, b, 1);
                 this.m2[ind] += (r * r) + (g * g) + (b * b);
             }
         }
@@ -270,50 +247,32 @@ namespace JeremyAnsel.ColorQuant
         /// </summary>
         private void Get3DMoments()
         {
-            Span<long> area = stackalloc long[IndexCount];
-            Span<long> areaR = stackalloc long[IndexCount];
-            Span<long> areaG = stackalloc long[IndexCount];
-            Span<long> areaB = stackalloc long[IndexCount];
+            Span<Vector256<long>> area = stackalloc Vector256<long>[IndexCount];
             Span<double> area2 = stackalloc double[IndexCount];
 
             for (int r = 1; r < IndexCount; r++)
             {
                 area.Clear();
-                areaR.Clear();
-                areaG.Clear();
-                areaB.Clear();
                 area2.Clear();
 
                 for (int g = 1; g < IndexCount; g++)
                 {
-                    long line = 0;
-                    long lineR = 0;
-                    long lineG = 0;
-                    long lineB = 0;
+                    Vector256<long> line = Vector256<long>.Zero;
                     double line2 = 0;
 
                     for (int b = 1; b < IndexCount; b++)
                     {
                         int ind1 = GetIndex(r, g, b);
 
-                        line += this.vwt[ind1];
-                        lineR += this.vmr[ind1];
-                        lineG += this.vmg[ind1];
-                        lineB += this.vmb[ind1];
+                        line += this.vm[ind1];
                         line2 += this.m2[ind1];
 
                         area[b] += line;
-                        areaR[b] += lineR;
-                        areaG[b] += lineG;
-                        areaB[b] += lineB;
                         area2[b] += line2;
 
                         int ind2 = ind1 - GetIndex(1, 0, 0);
 
-                        this.vwt[ind1] = this.vwt[ind2] + area[b];
-                        this.vmr[ind1] = this.vmr[ind2] + areaR[b];
-                        this.vmg[ind1] = this.vmg[ind2] + areaG[b];
-                        this.vmb[ind1] = this.vmb[ind2] + areaB[b];
+                        this.vm[ind1] = this.vm[ind2] + area[b];
                         this.m2[ind1] = this.m2[ind2] + area2[b];
                     }
                 }
@@ -327,9 +286,7 @@ namespace JeremyAnsel.ColorQuant
         /// <returns>The result.</returns>
         private double Variance(Box cube)
         {
-            double dr = Volume(cube, this.vmr);
-            double dg = Volume(cube, this.vmg);
-            double db = Volume(cube, this.vmb);
+            Vector256<long> d = Volume(cube, this.vm);
 
             double xx =
                 this.m2[cube.Index111]
@@ -341,7 +298,8 @@ namespace JeremyAnsel.ColorQuant
                 + this.m2[cube.Index001]
                 - this.m2[cube.Index000];
 
-            return xx - (((dr * dr) + (dg * dg) + (db * db)) / Volume(cube, this.vwt));
+            Vector256<double> dv = Vector256.Create((double)d[0], (double)d[1], (double)d[2], 0.0);
+            return xx - (Vector256.Dot(dv, dv) / d[3]);
         }
 
         /// <summary>
@@ -356,48 +314,36 @@ namespace JeremyAnsel.ColorQuant
         /// <param name="first">The first position.</param>
         /// <param name="last">The last position.</param>
         /// <param name="cut">The cutting point.</param>
-        /// <param name="wholeR">The whole red.</param>
-        /// <param name="wholeG">The whole green.</param>
-        /// <param name="wholeB">The whole blue.</param>
-        /// <param name="wholeW">The whole weight.</param>
+        /// <param name="whole">The whole color and weight.</param>
         /// <returns>The result.</returns>
-        private double Maximize(Box cube, int direction, int first, int last, out int cut, double wholeR, double wholeG, double wholeB, double wholeW)
+        private double Maximize(Box cube, int direction, int first, int last, out int cut, in Vector256<long> whole)
         {
-            long baseR = Bottom(cube, direction, this.vmr);
-            long baseG = Bottom(cube, direction, this.vmg);
-            long baseB = Bottom(cube, direction, this.vmb);
-            long baseW = Bottom(cube, direction, this.vwt);
+            Vector256<long> bases = Bottom(cube, direction, this.vm);
 
             double max = 0.0;
             cut = -1;
 
             for (int i = first; i < last; i++)
             {
-                double halfW1 = baseW + Top(cube, direction, i, this.vwt);
+                Vector256<long> halfs1 = bases + Top(cube, direction, i, this.vm);
 
-                if (halfW1 == 0)
+                if (halfs1[3] == 0)
                 {
                     continue;
                 }
 
-                double halfW2 = wholeW - halfW1;
+                Vector256<long> halfs2 = whole - halfs1;
 
-                if (halfW2 == 0)
+                if (halfs2[3] == 0)
                 {
                     continue;
                 }
 
-                double halfR1 = baseR + Top(cube, direction, i, this.vmr);
-                double halfG1 = baseG + Top(cube, direction, i, this.vmg);
-                double halfB1 = baseB + Top(cube, direction, i, this.vmb);
+                Vector256<double> dv1 = Vector256.Create((double)halfs1[0], (double)halfs1[1], (double)halfs1[2], 0.0);
+                double temp = Vector256.Dot(dv1, dv1) / halfs1[3];
 
-                double temp = ((halfR1 * halfR1) + (halfG1 * halfG1) + (halfB1 * halfB1)) / halfW1;
-
-                double halfR2 = wholeR - halfR1;
-                double halfG2 = wholeG - halfG1;
-                double halfB2 = wholeB - halfB1;
-
-                temp += ((halfR2 * halfR2) + (halfG2 * halfG2) + (halfB2 * halfB2)) / halfW2;
+                Vector256<double> dv2 = Vector256.Create((double)halfs2[0], (double)halfs2[1], (double)halfs2[2], 0.0);
+                temp += Vector256.Dot(dv2, dv2) / halfs2[3];
 
                 if (temp > max)
                 {
@@ -417,18 +363,15 @@ namespace JeremyAnsel.ColorQuant
         /// <returns>Returns a value indicating whether the box has been split.</returns>
         private bool Cut(Box set1, Box set2)
         {
-            double wholeR = Volume(set1, this.vmr);
-            double wholeG = Volume(set1, this.vmg);
-            double wholeB = Volume(set1, this.vmb);
-            double wholeW = Volume(set1, this.vwt);
+            Vector256<long> whole = Volume(set1, this.vm);
 
             int cutr;
             int cutg;
             int cutb;
 
-            double maxr = this.Maximize(set1, 2, set1.R0 + 1, set1.R1, out cutr, wholeR, wholeG, wholeB, wholeW);
-            double maxg = this.Maximize(set1, 1, set1.G0 + 1, set1.G1, out cutg, wholeR, wholeG, wholeB, wholeW);
-            double maxb = this.Maximize(set1, 0, set1.B0 + 1, set1.B1, out cutb, wholeR, wholeG, wholeB, wholeW);
+            double maxr = this.Maximize(set1, 2, set1.R0 + 1, set1.R1, out cutr, whole);
+            double maxg = this.Maximize(set1, 1, set1.G0 + 1, set1.G1, out cutg, whole);
+            double maxb = this.Maximize(set1, 0, set1.B0 + 1, set1.B1, out cutb, whole);
 
             int dir;
 
@@ -511,7 +454,7 @@ namespace JeremyAnsel.ColorQuant
         private void BuildCube(out Box[] cube, ref int colorCount)
         {
             cube = new Box[colorCount];
-            double[] vv = new double[colorCount];
+            Span<double> vv = stackalloc double[colorCount];
 
             for (int i = 0; i < colorCount; i++)
             {
@@ -572,14 +515,15 @@ namespace JeremyAnsel.ColorQuant
             {
                 this.Mark(cube[k], (byte)k);
 
-                double weight = Volume(cube[k], this.vwt);
+                Vector256<long> weight = Volume(cube[k], this.vm);
+                double w = weight[3];
 
-                if (weight != 0)
+                if (w != 0)
                 {
                     quantizedImage.Palette[(k * 4) + 3] = 0xff;
-                    quantizedImage.Palette[(k * 4) + 2] = (byte)(Volume(cube[k], this.vmr) / weight);
-                    quantizedImage.Palette[(k * 4) + 1] = (byte)(Volume(cube[k], this.vmg) / weight);
-                    quantizedImage.Palette[k * 4] = (byte)(Volume(cube[k], this.vmb) / weight);
+                    quantizedImage.Palette[(k * 4) + 2] = (byte)(weight[0] / w);
+                    quantizedImage.Palette[(k * 4) + 1] = (byte)(weight[1] / w);
+                    quantizedImage.Palette[k * 4] = (byte)(weight[2] / w);
                 }
                 else
                 {

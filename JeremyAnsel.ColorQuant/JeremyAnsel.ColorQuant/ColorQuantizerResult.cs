@@ -16,6 +16,11 @@ namespace JeremyAnsel.ColorQuant
     public sealed class ColorQuantizerResult
     {
         /// <summary>
+        /// The maximum color count.
+        /// </summary>
+        public const int MaxColors = 256;
+
+        /// <summary>
         /// Initializes a new instance of the <see cref="ColorQuantizerResult"/> class.
         /// </summary>
         /// <param name="size">The size of the result.</param>
