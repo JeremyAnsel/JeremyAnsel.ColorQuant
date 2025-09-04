@@ -45,6 +45,12 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.ColorQuant.ColorQuantizerResult.Bytes
   nameWithType: ColorQuantizerResult.Bytes
+- uid: JeremyAnsel.ColorQuant.ColorQuantizerResult.MaxColors
+  name: MaxColors
+  href: api/JeremyAnsel.ColorQuant.ColorQuantizerResult.html#JeremyAnsel_ColorQuant_ColorQuantizerResult_MaxColors
+  commentId: F:JeremyAnsel.ColorQuant.ColorQuantizerResult.MaxColors
+  fullName: JeremyAnsel.ColorQuant.ColorQuantizerResult.MaxColors
+  nameWithType: ColorQuantizerResult.MaxColors
 - uid: JeremyAnsel.ColorQuant.ColorQuantizerResult.Palette
   name: Palette
   href: api/JeremyAnsel.ColorQuant.ColorQuantizerResult.html#JeremyAnsel_ColorQuant_ColorQuantizerResult_Palette
@@ -95,6 +101,12 @@ references:
   commentId: T:JeremyAnsel.ColorQuant.WuAlphaColorQuantizer
   fullName: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer
   nameWithType: WuAlphaColorQuantizer
+- uid: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.MaxColors
+  name: MaxColors
+  href: api/JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.html#JeremyAnsel_ColorQuant_WuAlphaColorQuantizer_MaxColors
+  commentId: F:JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.MaxColors
+  fullName: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.MaxColors
+  nameWithType: WuAlphaColorQuantizer.MaxColors
 - uid: JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.Quantize(System.Byte[])
   name: Quantize(byte[])
   href: api/JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.html#JeremyAnsel_ColorQuant_WuAlphaColorQuantizer_Quantize_System_Byte___
@@ -126,6 +138,12 @@ references:
   commentId: T:JeremyAnsel.ColorQuant.WuColorQuantizer
   fullName: JeremyAnsel.ColorQuant.WuColorQuantizer
   nameWithType: WuColorQuantizer
+- uid: JeremyAnsel.ColorQuant.WuColorQuantizer.MaxColors
+  name: MaxColors
+  href: api/JeremyAnsel.ColorQuant.WuColorQuantizer.html#JeremyAnsel_ColorQuant_WuColorQuantizer_MaxColors
+  commentId: F:JeremyAnsel.ColorQuant.WuColorQuantizer.MaxColors
+  fullName: JeremyAnsel.ColorQuant.WuColorQuantizer.MaxColors
+  nameWithType: WuColorQuantizer.MaxColors
 - uid: JeremyAnsel.ColorQuant.WuColorQuantizer.Quantize(System.Byte[])
   name: Quantize(byte[])
   href: api/JeremyAnsel.ColorQuant.WuColorQuantizer.html#JeremyAnsel_ColorQuant_WuColorQuantizer_Quantize_System_Byte___

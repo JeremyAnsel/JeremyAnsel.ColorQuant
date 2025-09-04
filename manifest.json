@@ -18,7 +18,11 @@
           "relative_path": "api/JeremyAnsel.ColorQuant.ColorQuantizerResult.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.ColorQuant.ColorQuantizerResult",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.ColorQuant.ColorQuantizerResult.yml\" sourcestartlinenumber=\"1\">A result of color quantization.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -28,7 +32,11 @@
           "relative_path": "api/JeremyAnsel.ColorQuant.IColorQuantizer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.ColorQuant.IColorQuantizer",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.ColorQuant.IColorQuantizer.yml\" sourcestartlinenumber=\"1\">Defines a color quantizer.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -38,7 +46,11 @@
           "relative_path": "api/JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.ColorQuant.WuAlphaColorQuantizer",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.ColorQuant.WuAlphaColorQuantizer.yml\" sourcestartlinenumber=\"1\">A Wu's color quantizer with alpha channel.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -48,7 +60,11 @@
           "relative_path": "api/JeremyAnsel.ColorQuant.WuColorQuantizer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.ColorQuant.WuColorQuantizer",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.ColorQuant.WuColorQuantizer.yml\" sourcestartlinenumber=\"1\">A Wu's color quantizer.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -58,7 +74,11 @@
           "relative_path": "api/JeremyAnsel.ColorQuant.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.ColorQuant",
+      "Summary": null
     },
     {
       "type": "Conceptual",
