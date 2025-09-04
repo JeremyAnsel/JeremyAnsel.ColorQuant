@@ -79,12 +79,14 @@ namespace JeremyAnsel.ColorQuant.Tests
         /// <summary>
         /// Tests a gray scale.
         /// </summary>
-        [Fact]
-        public void GrayScale()
+        [Theory]
+        [InlineData(256)]
+        [InlineData(4096 * 4096)]
+        public void GrayScale(int length)
         {
-            byte[] image = new byte[4 * 256];
+            byte[] image = new byte[4 * length];
 
-            for (int i = 0; i < 256; i++)
+            for (int i = 0; i < length; i++)
             {
                 byte c = (byte)i;
                 image[i * 4] = c;
@@ -93,9 +95,9 @@ namespace JeremyAnsel.ColorQuant.Tests
                 image[(i * 4) + 3] = 128;
             }
 
-            byte[] expectedImage = new byte[4 * 256];
+            byte[] expectedImage = new byte[4 * length];
 
-            for (int i = 0; i < 256; i++)
+            for (int i = 0; i < length; i++)
             {
                 byte c = (byte)((i & ~3) + 1);
                 expectedImage[i * 4] = c;
@@ -107,11 +109,11 @@ namespace JeremyAnsel.ColorQuant.Tests
             var result = this.quantizer.Quantize(image);
 
             Assert.Equal(4 * 64, result.Palette.Length);
-            Assert.Equal(256, result.Bytes.Length);
+            Assert.Equal(length, result.Bytes.Length);
 
-            byte[] resultImage = new byte[4 * 256];
+            byte[] resultImage = new byte[4 * length];
 
-            for (int i = 0; i < 256; i++)
+            for (int i = 0; i < length; i++)
             {
                 byte pal = result.Bytes[i];
 
@@ -127,12 +129,14 @@ namespace JeremyAnsel.ColorQuant.Tests
         /// <summary>
         /// Tests a blue scale.
         /// </summary>
-        [Fact]
-        public void BlueScale()
+        [Theory]
+        [InlineData(256)]
+        [InlineData(4096 * 4096)]
+        public void BlueScale(int length)
         {
-            byte[] image = new byte[4 * 256];
+            byte[] image = new byte[4 * length];
 
-            for (int i = 0; i < 256; i++)
+            for (int i = 0; i < length; i++)
             {
                 byte c = (byte)i;
                 image[i * 4] = c;
@@ -141,9 +145,9 @@ namespace JeremyAnsel.ColorQuant.Tests
                 image[(i * 4) + 3] = 128;
             }
 
-            byte[] expectedImage = new byte[4 * 256];
+            byte[] expectedImage = new byte[4 * length];
 
-            for (int i = 0; i < 256; i++)
+            for (int i = 0; i < length; i++)
             {
                 byte c = (byte)((i & ~3) + 1);
                 expectedImage[i * 4] = c;
@@ -155,11 +159,11 @@ namespace JeremyAnsel.ColorQuant.Tests
             var result = this.quantizer.Quantize(image);
 
             Assert.Equal(4 * 64, result.Palette.Length);
-            Assert.Equal(256, result.Bytes.Length);
+            Assert.Equal(length, result.Bytes.Length);
 
-            byte[] resultImage = new byte[4 * 256];
+            byte[] resultImage = new byte[4 * length];
 
-            for (int i = 0; i < 256; i++)
+            for (int i = 0; i < length; i++)
             {
                 byte pal = result.Bytes[i];
 
@@ -175,12 +179,14 @@ namespace JeremyAnsel.ColorQuant.Tests
         /// <summary>
         /// Tests a green scale.
         /// </summary>
-        [Fact]
-        public void GreenScale()
+        [Theory]
+        [InlineData(256)]
+        [InlineData(4096 * 4096)]
+        public void GreenScale(int length)
         {
-            byte[] image = new byte[4 * 256];
+            byte[] image = new byte[4 * length];
 
-            for (int i = 0; i < 256; i++)
+            for (int i = 0; i < length; i++)
             {
                 byte c = (byte)i;
                 image[i * 4] = 0;
@@ -189,9 +195,9 @@ namespace JeremyAnsel.ColorQuant.Tests
                 image[(i * 4) + 3] = 128;
             }
 
-            byte[] expectedImage = new byte[4 * 256];
+            byte[] expectedImage = new byte[4 * length];
 
-            for (int i = 0; i < 256; i++)
+            for (int i = 0; i < length; i++)
             {
                 byte c = (byte)((i & ~3) + 1);
                 expectedImage[i * 4] = 0;
@@ -203,11 +209,11 @@ namespace JeremyAnsel.ColorQuant.Tests
             var result = this.quantizer.Quantize(image);
 
             Assert.Equal(4 * 64, result.Palette.Length);
-            Assert.Equal(256, result.Bytes.Length);
+            Assert.Equal(length, result.Bytes.Length);
 
-            byte[] resultImage = new byte[4 * 256];
+            byte[] resultImage = new byte[4 * length];
 
-            for (int i = 0; i < 256; i++)
+            for (int i = 0; i < length; i++)
             {
                 byte pal = result.Bytes[i];
 
@@ -223,12 +229,14 @@ namespace JeremyAnsel.ColorQuant.Tests
         /// <summary>
         /// Tests a red scale.
         /// </summary>
-        [Fact]
-        public void RedScale()
+        [Theory]
+        [InlineData(256)]
+        [InlineData(4096 * 4096)]
+        public void RedScale(int length)
         {
-            byte[] image = new byte[4 * 256];
+            byte[] image = new byte[4 * length];
 
-            for (int i = 0; i < 256; i++)
+            for (int i = 0; i < length; i++)
             {
                 byte c = (byte)i;
                 image[i * 4] = 0;
@@ -237,9 +245,9 @@ namespace JeremyAnsel.ColorQuant.Tests
                 image[(i * 4) + 3] = 128;
             }
 
-            byte[] expectedImage = new byte[4 * 256];
+            byte[] expectedImage = new byte[4 * length];
 
-            for (int i = 0; i < 256; i++)
+            for (int i = 0; i < length; i++)
             {
                 byte c = (byte)((i & ~3) + 1);
                 expectedImage[i * 4] = 0;
@@ -251,11 +259,11 @@ namespace JeremyAnsel.ColorQuant.Tests
             var result = this.quantizer.Quantize(image);
 
             Assert.Equal(4 * 64, result.Palette.Length);
-            Assert.Equal(256, result.Bytes.Length);
+            Assert.Equal(length, result.Bytes.Length);
 
-            byte[] resultImage = new byte[4 * 256];
+            byte[] resultImage = new byte[4 * length];
 
-            for (int i = 0; i < 256; i++)
+            for (int i = 0; i < length; i++)
             {
                 byte pal = result.Bytes[i];
 
@@ -271,12 +279,14 @@ namespace JeremyAnsel.ColorQuant.Tests
         /// <summary>
         /// Tests an alpha scale.
         /// </summary>
-        [Fact]
-        public void AlphaScale()
+        [Theory]
+        [InlineData(256)]
+        [InlineData(4096 * 4096)]
+        public void AlphaScale(int length)
         {
-            byte[] image = new byte[4 * 256];
+            byte[] image = new byte[4 * length];
 
-            for (int i = 0; i < 256; i++)
+            for (int i = 0; i < length; i++)
             {
                 byte c = (byte)i;
                 image[i * 4] = 0;
@@ -285,9 +295,9 @@ namespace JeremyAnsel.ColorQuant.Tests
                 image[(i * 4) + 3] = c;
             }
 
-            byte[] expectedImage = new byte[4 * 256];
+            byte[] expectedImage = new byte[4 * length];
 
-            for (int i = 0; i < 256; i++)
+            for (int i = 0; i < length; i++)
             {
                 byte c = (byte)((i & ~15) + 7);
                 expectedImage[i * 4] = 0;
@@ -299,11 +309,11 @@ namespace JeremyAnsel.ColorQuant.Tests
             var result = this.quantizer.Quantize(image);
 
             Assert.Equal(4 * 16, result.Palette.Length);
-            Assert.Equal(256, result.Bytes.Length);
+            Assert.Equal(length, result.Bytes.Length);
 
-            byte[] resultImage = new byte[4 * 256];
+            byte[] resultImage = new byte[4 * length];
 
-            for (int i = 0; i < 256; i++)
+            for (int i = 0; i < length; i++)
             {
                 byte pal = result.Bytes[i];
 
